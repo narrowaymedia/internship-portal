@@ -34,9 +34,9 @@ Primer bridges hands-on creative & technical masterclasses directly with verifie
 - **Saved Opportunities Manager**: Manage and launch applications for bookmarked placements.
 - **Preparation Pathways Guide**: Step-by-step roadmap explaining how course completion unlocks guaranteed studio interview reviews.
 
-### 5. 🎓 Masterclasses & Course Academy (`/courses`, `/courses/[slug]`)
-- Eight hands-on masterclasses taught by working artists, chefs, filmmakers, and builders.
-- Detailed syllabi, project breakdowns, required tools & materials, student reviews, and free lesson 1 previews.
+### 5. 🧭 Mentors, Career Blog & Apply (`/mentors`, `/blog`, `/apply`)
+- The Primer design sections (home, mentors, blog, pricing, about, contact) are reworded for the internship portal and link to `/internships`.
+- Legacy routes redirect: `/courses` → `/internships`, `/teachers` → `/mentors`, `/journal` → `/blog`, `/enroll` → `/apply` (see `Frontend/next.config.ts`).
 
 ### 6. 🎨 High-Craft Editorial Design System
 - Warm tactile color palette (*bone*, *deep evergreen ink*, *terracotta brass*, *forest pine*, *fog*, *stone*).
@@ -62,8 +62,8 @@ internship-portal/
 │       │   │   ├── page.tsx     # Internship directory & search hub
 │       │   │   └── [slug]/      # Detailed placement view with SSG
 │       │   ├── dashboard/       # Student application pipeline & tracker
-│       │   ├── courses/         # Masterclasses & individual course pages
-│       │   ├── teachers/        # Faculty profiles & student projects
+│       │   ├── mentors/         # Mentor directory & profiles
+│       │   ├── blog/ apply/     # Career blog and application flow
 │       │   ├── pricing/         # Membership & tuition plans
 │       │   ├── about/           # Mission & studio philosophy
 │       │   └── contact/         # Inquiries & partner studio submission
@@ -116,15 +116,16 @@ npm run start
 
 | Route | Description |
 |---|---|
-| `/` | Landing page with hero, schools, featured courses, numbers, and reviews |
+| `/` | Landing page: hero, tracks, featured internships, how it works, mentors, intern stories, plans, FAQ |
 | `/internships` | Interactive internship & fellowship directory with real-time filters |
 | `/internships/[slug]` | Complete placement dossier, mentorship milestones, and Apply modal |
 | `/dashboard` | Student application tracker with pipeline stages and saved openings |
-| `/courses` | Masterclasses catalog organized by schools (Painting, Film, Design, etc.) |
-| `/courses/[slug]` | Individual course syllabus, materials kit, and lesson preview |
-| `/teachers` | Faculty directory and master practitioner profiles |
-| `/pricing` | Tuition plans and all-access membership options |
-| `/about` | Studio origins, pedagogy, and craft methodology |
+| `/mentors` | Industry mentors at partner studios (Primer design) |
+| `/mentors/[slug]` | Mentor profile, their internship and intern work |
+| `/apply` | Three-step application (pick an internship, your details, apply) |
+| `/blog`, `/blog/[slug]` | Career blog: resume tips, interview prep, first-internship advice, intern stories |
+| `/pricing` | Student (free), Student Pro (₹299/mo) and Company (₹2,999/mo) plans |
+| `/about` | Primer's story and how it works |
 | `/contact` | Studio partner inquiries and support |
 
 ---

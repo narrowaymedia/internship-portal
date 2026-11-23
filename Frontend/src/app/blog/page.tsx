@@ -1,7 +1,7 @@
-import Page from "@/framer/pages/enroll";
+import Page from "@/framer/pages/journal";
 import { metaFor } from "@/framer/meta";
 
-export const metadata = metaFor("/enroll");
+export const metadata = metaFor("/blog");
 
 export default function Route() {
   return <Page />;

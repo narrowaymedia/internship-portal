@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import Page from "@/framer/pages/course";
+import Page from "@/framer/pages/teacher";
 import { metaFor } from "@/framer/meta";
 
-const SLUGS = ["abstract-painting", "cook-like-a-chef", "creative-writing", "film-photography", "filmmaking-on-a-budget", "graphic-design-basics", "packaging-design", "woodworking-at-home"];
+const SLUGS = ["arthur-pendelton", "chloe-vance", "claire-delacroix", "greta-lindemann", "lars-lindqvist", "lena-hart", "marco-bellini", "marianne-vance"];
 
 export const dynamicParams = false;
 
@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  return metaFor("/courses/" + slug);
+  return metaFor("/mentors/" + slug);
 }
 
 export default async function Route({ params }: { params: Promise<{ slug: string }> }) {

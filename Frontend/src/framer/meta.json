@@ -1,22 +1,37 @@
 {
+ "/": {
+  "title": "Primer — Paid internships with real mentors",
+  "description": "Real work. Real mentors. Your first internship starts here. Paid internships at partner studios and companies, each with a mentor who reviews your work every week.",
+  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
+ },
  "/404": {
-  "title": "Page not found — Primer, online course academy",
+  "title": "Page not found — Primer, internships with real mentors",
   "description": "This page is still a sketch.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/about": {
-  "title": "About Primer: an online school for hands-on skills — Primer, online course academy",
-  "description": "Primer started with one teacher, one camera and a sketchbook. Today 12,480 students learn real skills with short lessons and real feedback.",
+  "title": "About Primer: a Chennai-based internship platform — Primer, internships with real mentors",
+  "description": "Primer connects students with paid, mentored internships at studios and companies. 3,000+ students placed with 120+ partner companies.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/contact": {
-  "title": "Contact Primer — Primer, online course academy",
-  "description": "Questions about a course, billing or teaching on Primer? Write to us and a real person replies within a day.",
+  "title": "Contact Primer — Primer, internships with real mentors",
+  "description": "Questions about an internship, your application or hiring interns? Write to us and a real person replies within a day.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/cookies": {
-  "title": "Cookie policy — Primer, online course academy",
+  "title": "Cookie policy — Primer, internships with real mentors",
   "description": "Which cookies Primer uses and how to turn them off.",
+  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
+ },
+ "/privacy": {
+  "title": "Privacy policy — Primer, internships with real mentors",
+  "description": "How Primer collects, uses and protects your data when you browse and apply for internships.",
+  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
+ },
+ "/terms": {
+  "title": "Terms of service — Primer, internships with real mentors",
+  "description": "The terms for students and companies using Primer.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/internships": {
@@ -29,159 +44,99 @@
   "description": "Track your active studio applications, interview invitations, and portfolio review status.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses": {
-  "title": "Online courses in painting, cooking, design, film and more — Primer, online course academy",
-  "description": "Eight online courses taught by working painters, chefs, designers and filmmakers. Short video lessons, one real project and teacher feedback on every course.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/enroll": {
-  "title": "Enroll: start your first lesson today — Primer, online course academy",
-  "description": "Choose a course or All access and start your first lesson today. 7 days free, cancel any time.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/": {
-  "title": "Primer — Online Course: Education Academy & Online School",
-  "description": "Primer is an online course academy. Short video lessons taught by people who do the work, a real project in every course and feedback from your teacher on each one.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/journal": {
-  "title": "The Primer journal: notes on learning and making — Primer, online course academy",
-  "description": "Stories from students and teachers, behind the scenes of our lessons and practical advice on learning a new skill.",
+ "/apply": {
+  "title": "Apply for an internship — Primer, internships with real mentors",
+  "description": "Pick an internship, add your details and apply in ten minutes. Free for students.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/pricing": {
-  "title": "Pricing: one course or All access from $16 a month — Primer, online course academy",
-  "description": "Buy one online course for life or open every school with All access. Teacher feedback on every plan, 14-day money back.",
+  "title": "Pricing: free for students, plans for companies — Primer, internships with real mentors",
+  "description": "Students browse and apply free. Student Pro from ₹199 a month adds priority applications and mock interviews. Companies post internships from ₹2,499 a month.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/privacy": {
-  "title": "Privacy policy — Primer, online course academy",
-  "description": "How Primer collects, uses and protects your data.",
+ "/mentors": {
+  "title": "Our mentors: designers, chefs, makers and filmmakers — Primer, internships with real mentors",
+  "description": "Meet the industry mentors at our partner studios. Every mentor still does the work and reviews every intern's work each week.",
+  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
+ },
+ "/blog": {
+  "title": "The Primer career blog: resumes, interviews and first internships — Primer, internships with real mentors",
+  "description": "Resume tips, interview prep, first-internship advice and intern success stories from our mentors and interns.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/start-here": {
-  "title": "Primer — Online Course: Education Academy & Online School",
-  "description": "Primer is an online course academy for hands-on skills: painting, cooking, design, woodwork, film, photography and writing. Short video lessons, one real project and feedback from your teacher on every course.",
+  "title": "Primer — Paid internships with real mentors",
+  "description": "Paid internships with real mentors across design, craft, film, writing and culinary arts.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/teachers": {
-  "title": "Our teachers: painters, chefs, designers and filmmakers — Primer, online course academy",
-  "description": "Meet the people who teach on Primer. Every teacher still does the work for a living and marks up every student project.",
+ "/blog/one-page-resume": {
+  "title": "A one-page resume that actually gets read — Primer, internships with real mentors",
+  "description": "Studios spend under a minute on each resume. Here's how to make that minute count.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/terms": {
-  "title": "Terms of service — Primer, online course academy",
-  "description": "The terms for using Primer and its online courses.",
+ "/blog/first-internship-not-perfect": {
+  "title": "Your first internship won't be perfect, and that's the point — Primer, internships with real mentors",
+  "description": "Every mentor on Primer says the same thing: you're not expected to know everything on day one.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/abstract-painting": {
-  "title": "Abstract painting: online course with Lena Hart — Primer, online course academy",
-  "description": "Layer, scrape and build a canvas that holds a room.",
+ "/blog/portfolio-interview-prep": {
+  "title": "How to prepare for a portfolio interview — Primer, internships with real mentors",
+  "description": "What mentors ask in a first interview, and how to walk them through your work in ten minutes.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/cook-like-a-chef": {
-  "title": "Cook like a chef: online course with Marco Bellini — Primer, online course academy",
-  "description": "Knife work, sauces and plating from a working kitchen.",
+ "/blog/while-you-wait-to-hear-back": {
+  "title": "What to do while you wait to hear back — Primer, internships with real mentors",
+  "description": "The two weeks after you apply are the best time to get ready. Here's a simple plan.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/creative-writing": {
-  "title": "Creative writing: online course with Clara Moss — Primer, online course academy",
-  "description": "From a blank page to a finished short story in six weeks.",
+ "/blog/how-we-vet-studios": {
+  "title": "How we vet every partner studio — Primer, internships with real mentors",
+  "description": "Paid stipends, a named mentor and real work. Behind the scenes of how a company gets listed on Primer.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/film-photography": {
-  "title": "Film photography: online course with Daniel Weiss — Primer, online course academy",
-  "description": "Load, meter, shoot and develop your first roll.",
+ "/blog/from-college-to-studio": {
+  "title": "From a college in Chennai to a studio in Berlin — Primer, internships with real mentors",
+  "description": "Ananya had never worked in a studio. Four months later she was hanging a museum show.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/filmmaking-on-a-budget": {
-  "title": "Filmmaking on a budget: online course with Ines Moreau — Primer, online course academy",
-  "description": "Plan, shoot and cut a short film with the gear you own.",
+ "/mentors/lena-hart": {
+  "title": "Lena Hart, Painter & Fine Artist: mentor on Primer — Primer, internships with real mentors",
+  "description": "Painter and fine artist with 14 years exhibiting large-scale works in Berlin, New York and Tokyo. Mentors interns at Studio Lena Hart.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/graphic-design-basics": {
-  "title": "Graphic design basics: online course with Sofia Lind — Primer, online course academy",
-  "description": "Type, colour and layout, then a real print job start to finish.",
+ "/mentors/marco-bellini": {
+  "title": "Marco Bellini, Chef Patron & Restaurateur: mentor on Primer — Primer, internships with real mentors",
+  "description": "Chef patron with 19 years running award-winning kitchens across Italy. Mentors interns at Osteria Nuova.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/packaging-design": {
-  "title": "Packaging design: online course with Hanna Berg — Primer, online course academy",
-  "description": "Dielines, folds and print-ready boxes for a real product.",
+ "/mentors/greta-lindemann": {
+  "title": "Greta Lindemann, Partner & Design Director: mentor on Primer — Primer, internships with real mentors",
+  "description": "Previously Design Principal at Ideo and professor of visual communication at UdK Berlin. Mentors interns at Studio Forma.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/courses/woodworking-at-home": {
-  "title": "Woodworking at home: online course with Tom Keller — Primer, online course academy",
-  "description": "Build, sand and oil your first table with hand tools.",
+ "/mentors/lars-lindqvist": {
+  "title": "Lars Lindqvist, Master Cabinetmaker: mentor on Primer — Primer, internships with real mentors",
+  "description": "30-year veteran guild member and restoration consultant for historic Swedish timber structures. Mentors interns at Timber & Grain Guild.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/journal/build-a-practice-habit": {
-  "title": "Twenty minutes, four days a week — Primer, online course academy",
-  "description": "The schedule that gets most students to the end of a course, and how to keep it when life gets busy.",
+ "/mentors/arthur-pendelton": {
+  "title": "Arthur Pendelton, Director of Photography (BSC): mentor on Primer — Primer, internships with real mentors",
+  "description": "Veteran British cinematographer with 22 years of non-fiction credits on BBC, Netflix, and Channel 4. Mentors interns at Kino Verité Productions.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/journal/filming-our-lessons": {
-  "title": "How we film a lesson — Primer, online course academy",
-  "description": "Two cameras, one teacher, no script. Behind the scenes of a Primer lesson shoot.",
+ "/mentors/claire-delacroix": {
+  "title": "Claire Delacroix, Master Printer & Photo Editor: mentor on Primer — Primer, internships with real mentors",
+  "description": "Former chief printer at Picto Paris with 25 years developing for legendary street photographers. Mentors interns at Atlas Photo Guild.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/journal/first-project-not-perfect": {
-  "title": "Your first project should be a little bad — Primer, online course academy",
-  "description": "Every teacher on Primer says the same thing: finish the first one, then make the second one good.",
+ "/mentors/chloe-vance": {
+  "title": "Chloe Vance, Design Director & Founding Partner: mentor on Primer — Primer, internships with real mentors",
+  "description": "Former Pentagram senior designer, creator of award-winning sustainable packaging lines. Mentors interns at Vessel Design Studio.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
- "/journal/from-student-to-show": {
-  "title": "From first lesson to first show — Primer, online course academy",
-  "description": "Emma had not painted since school. A year later two of her canvases hung in a gallery in Dublin.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/journal/how-feedback-works": {
-  "title": "What happens when you upload your work — Primer, online course academy",
-  "description": "A look at how our teachers mark up student projects, and why a photo of your work beats a quiz.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/journal/why-short-lessons-work": {
-  "title": "Why 10-minute lessons beat 2-hour classes — Primer, online course academy",
-  "description": "Short lessons sound like a shortcut. They are the opposite: you watch less and practise more.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/clara-moss": {
-  "title": "Clara Moss, Novelist: courses on Primer — Primer, online course academy",
-  "description": "Three novels, one prize and a weekly writing group she has run for ten years.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/daniel-weiss": {
-  "title": "Daniel Weiss, Photographer: courses on Primer — Primer, online course academy",
-  "description": "Shoots on film for magazines and still develops every roll in his kitchen.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/hana-ito": {
-  "title": "Hanna Berg, Packaging designer: courses on Primer — Primer, online course academy",
-  "description": "Designs boxes for small food and beauty brands. Brings real dielines to every lesson.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/ines-moreau": {
-  "title": "Ines Moreau, Director: courses on Primer — Primer, online course academy",
-  "description": "Two festival shorts and a lot of music videos, most of them shot on borrowed gear.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/lena-hart": {
-  "title": "Lena Hart, Painter: courses on Primer — Primer, online course academy",
-  "description": "Shows in Berlin and Lisbon. Paints big, scrapes a lot and teaches you to stop being careful.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/marco-bellini": {
-  "title": "Marco Bellini, Head chef: courses on Primer — Primer, online course academy",
-  "description": "Twenty years on the line in Milan and London. Every lesson is filmed during a real service.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/sofia-lind": {
-  "title": "Sofia Lind, Designer: courses on Primer — Primer, online course academy",
-  "description": "Runs a small print studio in Stockholm. Teaches the rules first, then when to break them.",
-  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
- },
- "/teachers/tom-keller": {
-  "title": "Tom Keller, Furniture maker: courses on Primer — Primer, online course academy",
-  "description": "Builds tables to order in a barn outside Bristol. Hand tools only, no shortcuts.",
+ "/mentors/marianne-vance": {
+  "title": "Marianne Vance, Editor-in-Chief: mentor on Primer — Primer, internships with real mentors",
+  "description": "Author of two essay collections and former features editor at Granta and The Atlantic. Mentors interns at Aura Creative Collective.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  }
 }

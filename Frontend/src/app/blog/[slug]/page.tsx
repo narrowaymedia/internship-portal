@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import Page from "@/framer/pages/teacher";
+import Page from "@/framer/pages/post";
 import { metaFor } from "@/framer/meta";
 
-const SLUGS = ["clara-moss", "daniel-weiss", "hana-ito", "ines-moreau", "lena-hart", "marco-bellini", "sofia-lind", "tom-keller"];
+const SLUGS = ["first-internship-not-perfect", "from-college-to-studio", "how-we-vet-studios", "one-page-resume", "portfolio-interview-prep", "while-you-wait-to-hear-back"];
 
 export const dynamicParams = false;
 
@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  return metaFor("/teachers/" + slug);
+  return metaFor("/blog/" + slug);
 }
 
 export default async function Route({ params }: { params: Promise<{ slug: string }> }) {

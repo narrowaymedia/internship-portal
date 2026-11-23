@@ -1,63 +1,46 @@
-# Primer Online Academy — Next.js, Tailwind CSS & TypeScript
+# Primer — Next.js frontend
 
-A faithful, modern reproduction of the **[Primer](https://nuanced-screenshot-385541.framer.app/)** educational website, rebuilt with clean architecture using **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS v4**, and **Framer Motion**.
+A Next.js (App Router) rebuild of the **Primer — Online Course** Framer template
+(reference: https://nuanced-screenshot-385541.framer.app/), built for pixel parity on desktop and mobile.
 
----
+## How it is put together
 
-## 🚀 Getting Started
+The Framer site is made of custom React *code components* (`PmHero`, `PmSchools`, `PmCourses`, …).
+This app runs those same components inside Next.js, so layout, typography, colours, hover states,
+scroll/entrance animations, the courses filter, FAQ accordion, pricing toggle, enroll flow, page
+transition and loader all behave exactly like the original.
 
-### 1. Run Development Server
-```bash
-npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
-
-### 2. Build for Production
-```bash
-npm run build
-npm run start
+src/
+  app/                    routes (/, /courses, /courses/[slug], /teachers, /teachers/[slug], /pricing,
+                          /about, /journal, /journal/[slug], /enroll, /contact, /privacy, /terms, /cookies, 404)
+  framer/
+    components/Pm*.js     the Primer code components (ported verbatim, client components)
+    pages/*.tsx           one file per Framer page: which sections, in which order, with which props
+    Bp.tsx                renders a section per breakpoint (desktop ≥1200, tablet 810–1199, phone <810)
+                          like Framer's SSR, then keeps only the active one after hydration
+    SiteChrome.tsx        header, loader, page transition, smooth scroll, footer (the Framer "Site Layout")
+    CmsBridge.tsx + cms.json   the CMS content (courses, teachers, lessons, FAQ, plans, reviews, posts, site)
+                          as hidden rows the components read, exactly as on Framer
+    meta.json / meta.ts   per-route <title>, description and OG image
+    shim.js               tiny stand-in for the `framer` package APIs the components import
 ```
 
----
+### Editing content
 
-## 🎨 Design System & Visual Tokens
+* Course / teacher / FAQ / plan / review / journal copy lives in `src/framer/cms.json`
+  (`data-f1…f18` fields follow the Framer CMS bridge mapping used by each component).
+* Section copy (headings, button labels, eyebrows) is in the `BLOCKS` props of `src/framer/pages/*.tsx`.
+* Colours are the Framer tokens at the top of `src/app/globals.css`.
 
-The aesthetic matches the physical paper, editorial magazine, and craft studio styling of the original Framer site:
+Images are served from `framerusercontent.com` (same URLs as the original).
 
-- **Cream Linen Background:** `#F4F1EA`
-- **Obsidian Ink Text:** `#17150F`
-- **Terracotta Accent:** `#F0532B`
-- **Forest Green:** `#1E3A32`
-- **Architectural Sand Borders:** `#DDD7CA` (1px dividers)
-- **Craft Muted Text:** `#7A746A`
-- **Typography:** Inter (`font-sans`) and Fragment Mono (`font-mono`)
+`src/data` and `src/types` are from the earlier hand-built version and are no longer used by the pages.
 
----
+## Run
 
-## 📁 Page Routes & Features
-
-| Route | Page | Key Features |
-| :--- | :--- | :--- |
-| `/` | **Home** | Editorial Hero, 4-Step Method (*Watch, Make, Share, Improve*), Category filter, "Sit In On Lesson One" video player, Teacher contact sheet, Reviews wall, FAQ accordion |
-| `/courses` | **Course Catalog** | Filterable by 6 disciplines (*Painting, Cooking, Design, Writing, Film, Craft*), search bar, and course cards with duration and teacher tags |
-| `/courses/[slug]` | **Course Detail** | Full syllabus accordion, project specification, materials list, teacher bio card, and sticky enrollment sidebar |
-| `/teachers` | **Teachers Directory** | Film-frame contact sheets for all 8 instructors |
-| `/teachers/[slug]` | **Teacher Portfolio** | Background, craft discipline, student project showcase, and courses taught |
-| `/pricing` | **Pricing & All-Access** | Single Course vs. All-Access monthly/annual toggle ($16/mo) and 14-day refund guarantee |
-| `/about` | **About Primer** | Origin story, manifesto, and core values |
-| `/enroll` | **Enrollment / Checkout** | 3-step interactive plan selector, student info, and payment preview |
-| `/journal` | **Journal Index** | 6 editorial articles on craft, habits, and studio filming |
-| `/journal/[slug]` | **Article Reader** | Editorial reading layout with author attribution |
-| `/contact` | **Contact & Support** | Admissions inquiry form and studio hours |
-| `/privacy`, `/terms`, `/cookies` | **Legal Policies** | Complete policy pages |
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework:** Next.js 16.4.6 (App Router, Turbopack)
-- **Language:** TypeScript 5 (Strict Mode)
-- **Styling:** Tailwind CSS 4.3.3
-- **Animations:** Framer Motion 14
-- **Icons:** Lucide React
-- **Data:** Structured, strongly-typed TypeScript models in `src/data/`
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build && npm start
+```

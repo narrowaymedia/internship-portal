@@ -29,7 +29,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://framerusercontent.com" />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link id="pm-fonts" rel="stylesheet" href={FONTS} />
       </head>
       <body>

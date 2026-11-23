@@ -1,4 +1,9 @@
 {
+ "/404": {
+  "title": "Page not found — Primer, online course academy",
+  "description": "This page is still a sketch.",
+  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
+ },
  "/about": {
   "title": "About Primer: an online school for hands-on skills — Primer, online course academy",
   "description": "Primer started with one teacher, one camera and a sketchbook. Today 12,480 students learn real skills with short lessons and real feedback.",
@@ -42,6 +47,11 @@
  "/privacy": {
   "title": "Privacy policy — Primer, online course academy",
   "description": "How Primer collects, uses and protects your data.",
+  "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
+ },
+ "/start-here": {
+  "title": "Primer — Online Course: Education Academy & Online School",
+  "description": "Primer is an online course academy for hands-on skills: painting, cooking, design, woodwork, film, photography and writing. Short video lessons, one real project and feedback from your teacher on every course.",
   "image": "https://framerusercontent.com/images/27ndUnO9m0AdoxvGO53upqABcV8.jpg"
  },
  "/teachers": {

@@ -37,6 +37,9 @@ export function useBp(): BpKey | null {
   useEffect(() => {
     ensureListener();
     shared = currentBp();
+    // Hydrate with every breakpoint copy (matches the server HTML), then keep only the active one
+    // (the hidden copies are display:none via media queries until then), like Framer does.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setBp(shared);
     subs.add(setBp);
     return () => {

@@ -1,5 +1,4 @@
 "use client";
-/* eslint-disable */
 // @ts-nocheck
 // Ported verbatim from the Primer Framer template code component (PmCmsRow).
 import{jsx as _jsx}from"react/jsx-runtime";import{addPropertyControls,ControlType}from"../shim";const src=v=>v&&typeof v==="object"?String(v.src||""):typeof v==="string"?v:"";/**

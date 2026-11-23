@@ -24,14 +24,14 @@ const FONTS =
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" dir="ltr">
+    <html lang="en" dir="ltr" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://framerusercontent.com" />
         <link id="pm-fonts" rel="stylesheet" href={FONTS} />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <div className="fr-root">
           <SiteTop />
           <CmsBridge />

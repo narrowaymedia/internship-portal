@@ -32,11 +32,9 @@ export function StudentDashboard() {
 
       const saved = localStorage.getItem("primer_saved_internships");
       if (saved) {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setSavedSlugs(JSON.parse(saved));
       } else {
         const defaultSaved = ["applied-ai-generative-design-fellow", "culinary-arts-kitchen-staging"];
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setSavedSlugs(defaultSaved);
         localStorage.setItem("primer_saved_internships", JSON.stringify(defaultSaved));
       }

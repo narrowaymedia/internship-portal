@@ -1,0 +1,24 @@
+{
+  "name": "internship-portal-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational internship and course management portal built with Next.js, React, TypeScript, and Tailwind CSS",
+  "scripts": {
+    "dev": "npm --prefix Frontend run dev",
+    "build": "npm --prefix Frontend run build",
+    "start": "npm --prefix Frontend run start",
+    "lint": "npm --prefix Frontend run lint",
+    "install:all": "npm --prefix Frontend install"
+  },
+  "keywords": [
+    "internship-portal",
+    "fellowships",
+    "education",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "MIT"
+}

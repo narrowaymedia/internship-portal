@@ -34,7 +34,7 @@
    "id": "VTtxMDwvA",
    "ink": "var(--token-c62c84d0-2271-4d5a-831d-79456ff3d6d5)",
    "layoutId": "VTtxMDwvA",
-   "links": "Courses:/courses, Teachers:/teachers, Pricing:/pricing, About:/about, Journal:/journal",
+   "links": "Internships:/internships, Courses:/courses, Dashboard:/dashboard, Teachers:/teachers, Pricing:/pricing, About:/about",
    "menuLabel": "Menu",
    "monoFont": {
     "fontFamily": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
@@ -232,7 +232,7 @@
    "newsTitle": "One free lesson in your inbox every week.",
    "night": "var(--token-b6edbf65-e00c-48a3-be1b-4bfc1da26464)",
    "pine": "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a)",
-   "primerLinks": "Courses:/courses, Teachers:/teachers, Pricing:/pricing, About:/about, Journal:/journal, Contact:/contact",
+   "primerLinks": "Internships:/internships, Dashboard:/dashboard, Courses:/courses, Teachers:/teachers, Pricing:/pricing, About:/about, Contact:/contact",
    "primerTitle": "Primer",
    "reveal": true,
    "schoolsLinks": "Painting:/courses?school=Painting, Cooking:/courses?school=Cooking, Design:/courses?school=Design, Woodwork:/courses?school=Woodwork, Film:/courses?school=Film, Photography:/courses?school=Photography, Writing:/courses?school=Writing",

@@ -1,0 +1,115 @@
+import { JournalArticle } from "@/types";
+
+export const journalArticles: JournalArticle[] = [
+  {
+    slug: "why-short-lessons-work",
+    title: "Why 10-Minute Lessons Beat 2-Hour Masterclasses",
+    category: "Methods",
+    date: "November 14, 2026",
+    readTime: "4 min read",
+    author: {
+      name: "Lena Hart",
+      role: "Lead Instructor",
+      avatar: "https://framerusercontent.com/images/TATDi0y8zaKMAxLQeCeRnzRNg.webp",
+    },
+    excerpt: "Most online courses overwhelm you with 90-minute lectures where you passively watch someone else work. Here is why Primer structures everything around short bursts and immediate physical practice.",
+    coverImage: "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp",
+    content: [
+      "When we founded Primer, our single strongest intuition was that passive video bingeing is the enemy of skill acquisition. Watching someone chop an onion or paint a wash for two hours gives you the illusion of competence without any of the tactile muscle memory.",
+      "A ten-minute lesson forces the teacher to isolate one single mechanical idea: how to angle the blade against the knuckle, how much water to leave on the sable brush, or how to set up an editorial baseline grid.",
+      "Once that ten minutes is over, your screen turns off. You pick up the knife, the brush, or the mouse, and you spend the next thirty minutes doing it yourself. That is where real learning lives.",
+    ],
+  },
+  {
+    slug: "build-a-practice-habit",
+    title: "Twenty Minutes, Four Days a Week",
+    category: "Methods",
+    date: "October 28, 2026",
+    readTime: "5 min read",
+    author: {
+      name: "Clara Moss",
+      role: "Writing Instructor",
+      avatar: "https://framerusercontent.com/images/AxjpM1cutrT0gt0MPs9wWvQSEHE.webp",
+    },
+    excerpt: "You do not need a three-month sabbatical in the countryside to write a book, make furniture, or learn to paint. Consistency of tiny windows always trumps sporadic marathon sessions.",
+    coverImage: "https://framerusercontent.com/images/KSPZkqQDIwEB0js15w5xelYPbgg.webp",
+    content: [
+      "The amateur believes that creating requires vast stretches of uninterrupted time. They wait for a free weekend that never arrives, or for retirement, or for a mystical surge of divine inspiration.",
+      "Professional makers understand that momentum is built through small, non-negotiable rituals. Twenty focused minutes four mornings a week generates more completed work in a single calendar year than four chaotic weekend sprints.",
+      "Protect your twenty minutes like a doctor's appointment. Keep your materials prepped and ready on your desk so the friction to start is zero.",
+    ],
+  },
+  {
+    slug: "how-feedback-works",
+    title: "What Happens When You Upload Your Work to Primer",
+    category: "Behind the Scenes",
+    date: "October 12, 2026",
+    readTime: "6 min read",
+    author: {
+      name: "Marco Bellini",
+      role: "Culinary Mentor",
+      avatar: "https://framerusercontent.com/images/uw6MU2iVNFnh4k9MY7NlYuASg.webp",
+    },
+    excerpt: "Automated quizzes cannot tell you if your sauce is split or your typography lacks tension. Inside our asynchronous 1:1 teacher critique desk.",
+    coverImage: "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp",
+    content: [
+      "When a student submits their course project—whether it is a photo of their hand-cut dovetail joint, a draft of a scene, or a plate of seared sea bass—it doesn't go into a community forum void.",
+      "It lands directly in the teacher's grading queue. We open your high-resolution images or video walk-through, record a personalized 3-to-5 minute screen video with annotations, and tell you precisely what worked and what needs correction.",
+      "Learning without feedback is like throwing darts in a dark room. Direct feedback turns on the lights.",
+    ],
+  },
+  {
+    slug: "first-project-not-perfect",
+    title: "Your First Project Should Be a Little Bad",
+    category: "Essays",
+    date: "September 24, 2026",
+    readTime: "3 min read",
+    author: {
+      name: "Sofia Lind",
+      role: "Design Instructor",
+      avatar: "https://framerusercontent.com/images/oFEeVXj2XKcF0Qc9ttBhkJFuKMA.webp",
+    },
+    excerpt: "Perfectionism is just fear disguised as high standards. Giving yourself permission to make clumsy work is the first prerequisite of becoming good.",
+    coverImage: "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp",
+    content: [
+      "Ira Glass spoke famously about the taste gap: beginners have great taste, which is why they know their early work is disappointing.",
+      "The only bridge across that gap is volume. If your first poster looks slightly awkward, celebrate it: you finished something real, and you now have something tangible to diagnose and improve.",
+    ],
+  },
+  {
+    slug: "filming-our-lessons",
+    title: "How We Film a Lesson: Two Cameras, Natural Light & Zero Script",
+    category: "Behind the Scenes",
+    date: "September 02, 2026",
+    readTime: "7 min read",
+    author: {
+      name: "Ines Moreau",
+      role: "Film Instructor",
+      avatar: "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp",
+    },
+    excerpt: "Why we travel directly to our instructors' personal working studios instead of putting them on a generic green screen set.",
+    coverImage: "https://framerusercontent.com/images/m19PzR3EFa7CYtPwpKDAmHwbAM.webp",
+    content: [
+      "Every Primer course is recorded in the teacher's actual working environment: Tom's dusty Munich workshop, Marco's restaurant prep line at 7:00 AM, Lena's sunlit loft in Kreuzberg.",
+      "We don't hand them a teleprompter or a marketing script. We ask them to do what they have done every working day for twenty years, and we place macro lenses right where their hands meet the material.",
+    ],
+  },
+  {
+    slug: "from-student-to-show",
+    title: "From First Lesson to First Gallery Show: Julian's Story",
+    category: "Student Stories",
+    date: "August 18, 2026",
+    readTime: "5 min read",
+    author: {
+      name: "Lena Hart",
+      role: "Painting Instructor",
+      avatar: "https://framerusercontent.com/images/TATDi0y8zaKMAxLQeCeRnzRNg.webp",
+    },
+    excerpt: "How an architect from London picked up oil sticks for the first time during lockdown and ended up with a solo exhibition eighteen months later.",
+    coverImage: "https://framerusercontent.com/images/lpdAFlFLabZKyZ8oHIPqPKHGsQ.webp",
+    content: [
+      "Julian had never painted before enrolling in Abstract Painting. His architectural training had made him precise, but terrified of accidental splatters and textural imperfection.",
+      "Through four iterations and weekly markup sessions, he unlearned his fear of making mistakes. Last month, his 'Tectonic Studies' series debuted in East London to critical praise.",
+    ],
+  },
+];

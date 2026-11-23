@@ -1,0 +1,259 @@
+{
+ "PmHeader": {
+  "props": {
+   "allLabel": "All courses",
+   "bodyFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "bone": "var(--token-9a636b8c-3272-4cd8-9671-9f644e056731)",
+   "bpHint": "desktop",
+   "brass": "var(--token-6e05a1fc-6c66-49ed-aaad-602284d2af03)",
+   "closeLabel": "Close",
+   "cloud": "var(--token-22fcdb76-0355-4386-bcd7-f1ece6939d77)",
+   "countLabel": "{n} courses",
+   "countOne": "{n} course",
+   "coursesLabel": "Popular this term",
+   "ctaLabel": "Enroll",
+   "customFonts": false,
+   "displayFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "drawerFor": "Courses",
+   "drawerTitle": "Pick a school",
+   "fog": "var(--token-089b04d3-1763-411b-b92e-81c3ce9de35b)",
+   "freeButton": "Start free",
+   "freeKicker": "Lesson one",
+   "freeLine": "Pick any course and start today. No card, no catch.",
+   "freeTitle": "Your first lesson is *free.*",
+   "height": "100%",
+   "homeLabel": "Home",
+   "id": "VTtxMDwvA",
+   "ink": "var(--token-c62c84d0-2271-4d5a-831d-79456ff3d6d5)",
+   "layoutId": "VTtxMDwvA",
+   "links": "Courses:/courses, Teachers:/teachers, Pricing:/pricing, About:/about, Journal:/journal",
+   "menuLabel": "Menu",
+   "monoFont": {
+    "fontFamily": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "name": "PmHeader",
+   "night": "var(--token-b6edbf65-e00c-48a3-be1b-4bfc1da26464)",
+   "pine": "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a)",
+   "proof": "★ {rating} · {students} students",
+   "schoolsLabel": "Schools",
+   "sheetCta": "Start your first lesson",
+   "showCta": true,
+   "showProof": true,
+   "stone": "var(--token-8b8bc3b0-833c-4020-8661-1dee89fb8f75)",
+   "style": {
+    "height": "100%",
+    "width": "100%"
+   },
+   "width": "100%",
+   "withLabel": "with {teacher}"
+  },
+  "ov": {
+   "Tablet": {
+    "bpHint": "tablet"
+   },
+   "Phone": {
+    "bpHint": "phone"
+   }
+  }
+ },
+ "PmLoader": {
+  "props": {
+   "bodyFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "bone": "var(--token-9a636b8c-3272-4cd8-9671-9f644e056731)",
+   "bpHint": "desktop",
+   "brass": "var(--token-6e05a1fc-6c66-49ed-aaad-602284d2af03)",
+   "cloud": "var(--token-22fcdb76-0355-4386-bcd7-f1ece6939d77)",
+   "counterLabel": "Loading",
+   "customFonts": false,
+   "displayFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "duration": 2.3,
+   "enabled": true,
+   "fog": "var(--token-089b04d3-1763-411b-b92e-81c3ce9de35b)",
+   "height": "100%",
+   "id": "PcJIHnyBK",
+   "ink": "var(--token-c62c84d0-2271-4d5a-831d-79456ff3d6d5)",
+   "kicker": "Lesson 00 · Your first sketch",
+   "layoutId": "PcJIHnyBK",
+   "lift": 0.75,
+   "monoFont": {
+    "fontFamily": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "name": "PmLoader",
+   "night": "var(--token-b6edbf65-e00c-48a3-be1b-4bfc1da26464)",
+   "once": true,
+   "pine": "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a)",
+   "skipLabel": "Skip",
+   "statuses": "Sharpening pencils…;Setting up the studio…;Lesson one is ready",
+   "stone": "var(--token-8b8bc3b0-833c-4020-8661-1dee89fb8f75)",
+   "style": {
+    "height": "100%",
+    "width": "100%"
+   },
+   "width": "100%",
+   "word": " "
+  },
+  "ov": {
+   "Tablet": {
+    "bpHint": "tablet"
+   },
+   "Phone": {
+    "bpHint": "phone"
+   }
+  }
+ },
+ "PmPageTrans": {
+  "props": {
+   "bodyFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "bone": "var(--token-9a636b8c-3272-4cd8-9671-9f644e056731)",
+   "bpHint": "desktop",
+   "brass": "var(--token-6e05a1fc-6c66-49ed-aaad-602284d2af03)",
+   "cloud": "var(--token-22fcdb76-0355-4386-bcd7-f1ece6939d77)",
+   "customFonts": false,
+   "displayFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "duration": 0.55,
+   "enabled": true,
+   "enter": 0.5,
+   "fog": "var(--token-089b04d3-1763-411b-b92e-81c3ce9de35b)",
+   "height": "100%",
+   "homeLabel": "Home",
+   "id": "bOBpsvXc6",
+   "ink": "var(--token-c62c84d0-2271-4d5a-831d-79456ff3d6d5)",
+   "kicker": "Turning to",
+   "layoutId": "bOBpsvXc6",
+   "monoFont": {
+    "fontFamily": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "name": "PmPageTrans",
+   "names": "",
+   "night": "var(--token-b6edbf65-e00c-48a3-be1b-4bfc1da26464)",
+   "pageLabel": "p. {n}",
+   "pine": "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a)",
+   "stone": "var(--token-8b8bc3b0-833c-4020-8661-1dee89fb8f75)",
+   "style": {
+    "height": "100%",
+    "width": "100%"
+   },
+   "width": "100%"
+  },
+  "ov": {
+   "Tablet": {
+    "bpHint": "tablet"
+   },
+   "Phone": {
+    "bpHint": "phone"
+   }
+  }
+ },
+ "PmSmooth": {
+  "props": {
+   "anchorOffset": 72,
+   "height": "100%",
+   "id": "PhHKQKzfr",
+   "layoutId": "PhHKQKzfr",
+   "name": "PmSmooth",
+   "smoothness": 0.1,
+   "style": {
+    "height": "100%",
+    "width": "100%"
+   },
+   "wheelSpeed": 1,
+   "width": "100%"
+  },
+  "ov": {}
+ },
+ "PmFooter": {
+  "props": {
+   "bodyFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "bone": "var(--token-9a636b8c-3272-4cd8-9671-9f644e056731)",
+   "bpHint": "desktop",
+   "brass": "var(--token-6e05a1fc-6c66-49ed-aaad-602284d2af03)",
+   "builtWith": "Made in Framer",
+   "cloud": "var(--token-22fcdb76-0355-4386-bcd7-f1ece6939d77)",
+   "customFonts": false,
+   "displayFont": {
+    "fontFamily": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "endpoint": "",
+   "fog": "var(--token-089b04d3-1763-411b-b92e-81c3ce9de35b)",
+   "height": "100%",
+   "id": "yQwI6QPDj",
+   "ink": "var(--token-c62c84d0-2271-4d5a-831d-79456ff3d6d5)",
+   "layer": 8,
+   "layoutId": "yQwI6QPDj",
+   "legal": "© {year} {brand}",
+   "legalLinks": "Privacy:/privacy, Terms:/terms, Cookies:/cookies",
+   "legalTitle": "Legal",
+   "monoFont": {
+    "fontFamily": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+    "fontStyle": "normal",
+    "fontWeight": 400
+   },
+   "name": "PmFooter",
+   "newsButton": "Subscribe",
+   "newsDone": "You're in. Your first free lesson lands this Sunday.",
+   "newsError": "Please enter a valid email.",
+   "newsLabel": "Your email",
+   "newsTitle": "One free lesson in your inbox every week.",
+   "night": "var(--token-b6edbf65-e00c-48a3-be1b-4bfc1da26464)",
+   "pine": "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a)",
+   "primerLinks": "Courses:/courses, Teachers:/teachers, Pricing:/pricing, About:/about, Journal:/journal, Contact:/contact",
+   "primerTitle": "Primer",
+   "reveal": true,
+   "schoolsLinks": "Painting:/courses?school=Painting, Cooking:/courses?school=Cooking, Design:/courses?school=Design, Woodwork:/courses?school=Woodwork, Film:/courses?school=Film, Photography:/courses?school=Photography, Writing:/courses?school=Writing",
+   "schoolsTitle": "Schools",
+   "socialsTitle": "Follow",
+   "statusLine": "{n} students learning right now",
+   "stone": "var(--token-8b8bc3b0-833c-4020-8661-1dee89fb8f75)",
+   "style": {
+    "width": "100%"
+   },
+   "topLabel": "Back to lesson one",
+   "width": "100%",
+   "wordmark": " "
+  },
+  "ov": {
+   "Tablet": {
+    "bpHint": "tablet"
+   },
+   "Phone": {
+    "bpHint": "phone"
+   }
+  }
+ }
+}

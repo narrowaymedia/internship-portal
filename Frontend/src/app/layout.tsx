@@ -1,28 +1,44 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
+import { CmsBridge } from "@/framer/CmsBridge";
+import { SiteTop, SiteFooter } from "@/framer/SiteChrome";
+import { metaFor } from "@/framer/meta";
 
 export const metadata: Metadata = {
-  title: "Primer — Online Course: Education Academy & Online School",
-  description:
-    "Primer is an online course academy. Short video lessons taught by people who do the work, a real project in every course and feedback from your teacher on each one.",
+  ...metaFor("/"),
+  metadataBase: new URL("https://primer.example.com"),
+  robots: "max-image-preview:large",
   icons: {
-    icon: "https://framerusercontent.com/images/JZF7xyD3BbSLLgMa73FP0FSDRU.png",
+    icon: [
+      { url: "https://framerusercontent.com/images/JZF7xyD3BbSLLgMa73FP0FSDRU.png", media: "(prefers-color-scheme: light)" },
+      { url: "https://framerusercontent.com/images/G7lJ5jROMehuuvkCPdEbLqCMjYU.png", media: "(prefers-color-scheme: dark)" },
+    ],
+    apple: "https://framerusercontent.com/images/0HxX6t8psjK7z3O9xxpmMFnWyFs.png",
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export const viewport: Viewport = { width: "device-width" };
+
+const FONTS =
+  "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap";
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="h-full antialiased font-sans">
-      <body className="min-h-full flex flex-col bg-[#f4f1ea] text-[#17150f]">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+    <html lang="en" dir="ltr">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://framerusercontent.com" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link id="pm-fonts" rel="stylesheet" href={FONTS} />
+      </head>
+      <body>
+        <div className="fr-root">
+          <SiteTop />
+          <CmsBridge />
+          <div className="fr-page">{children}</div>
+          <SiteFooter />
+        </div>
       </body>
     </html>
   );

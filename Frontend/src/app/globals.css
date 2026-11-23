@@ -1,51 +1,131 @@
-@import "tailwindcss";
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+/* (Tailwind theme + utilities only: no preflight, so the Framer base styles stay exact.) */
 
-:root {
-  --background: #f4f1ea;
-  --foreground: #17150f;
-  --primer-cream: #f4f1ea;
-  --primer-cream-light: #faf8f5;
-  --primer-cream-dark: #ebe6dc;
-  --primer-dark: #17150f;
-  --primer-orange: #f0532b;
-  --primer-orange-hover: #dc451d;
-  --primer-green: #1e3a32;
-  --primer-sand: #ddd7ca;
-  --primer-sand-light: #e8e3d8;
-  --primer-muted: #7a746a;
-  --primer-white: #ffffff;
-  --primer-black: #100f0c;
-}
+/* Primer — global base, mirrored from the Framer site's base CSS and design tokens. */
 
+html,
 body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+}
+h1, h2, h3, h4, h5, h6, p, figure {
+  margin: 0;
+}
+body, input, textarea, select, button {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+body {
+  /* Framer colour tokens (Styles) */
+  --token-9a636b8c-3272-4cd8-9671-9f644e056731: #f4f1ea; /* bone */
+  --token-c62c84d0-2271-4d5a-831d-79456ff3d6d5: #17150f; /* ink */
+  --token-6e05a1fc-6c66-49ed-aaad-602284d2af03: #f0532b; /* brass */
+  --token-d61acb54-0f02-4ada-8301-e50808c78e3a: #1e3a32; /* pine */
+  --token-089b04d3-1763-411b-b92e-81c3ce9de35b: #ddd7ca; /* fog */
+  --token-8b8bc3b0-833c-4020-8661-1dee89fb8f75: #7a746a; /* stone */
+  --token-22fcdb76-0355-4386-bcd7-f1ece6939d77: #fff; /* cloud */
+  --token-b6edbf65-e00c-48a3-be1b-4bfc1da26464: #100f0c; /* night */
+  background: var(--token-9a636b8c-3272-4cd8-9671-9f644e056731);
 }
 
-::-webkit-scrollbar-track {
-  background: #f4f1ea;
+/* Breakpoint copies (same media queries as the Framer site) */
+.ssr-variant {
+  display: contents;
+}
+@media (min-width: 1200px) {
+  .bp-hide-d { display: none !important; }
+}
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .bp-hide-t { display: none !important; }
+}
+@media (max-width: 809.98px) {
+  .bp-hide-p { display: none !important; }
 }
 
-::-webkit-scrollbar-thumb {
-  background: #ddd7ca;
-  border-radius: 3px;
+/* Site layout (Framer "Site Layout" template) */
+.fr-root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: min-content;
+  padding: 0;
+  position: relative;
+  overflow: visible;
+  background-color: var(--token-9a636b8c-3272-4cd8-9671-9f644e056731);
 }
-
-::-webkit-scrollbar-thumb:hover {
-  background: #7a746a;
+.fr-zero {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 0;
+  width: 100%;
+  position: relative;
+  overflow: visible;
 }
-
-/* Selection */
-::selection {
-  background-color: #f0532b;
-  color: #ffffff;
+.fr-zero-c {
+  flex: none;
+  height: 0;
+  width: 100%;
+  position: relative;
+}
+.fr-cms {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  overflow: clip;
+  order: -989;
+}
+.fr-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: none;
+  position: relative;
+}
+.fr-sec {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: min-content;
+  position: relative;
+  overflow: visible;
+  padding: 0;
+}
+.fr-container {
+  flex: none;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+.fr-footer {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: min-content;
+  order: 1014;
+  position: relative;
+  overflow: visible;
 }

@@ -52,6 +52,65 @@ body {
   .bp-hide-p { display: none !important; }
 }
 
+.pmh-card,
+.pmh-eye,
+.pm-eb,
+.pmhd-proof,
+.pmh-proof,
+.pmhd-sproof {
+  display: none !important;
+}
+
+.pmh-copy {
+  max-width: min(880px, 68%) !important;
+}
+
+.pmhd-bar {
+  translate: 0 0 !important;
+}
+
+@media (min-width: 810px) {
+  .pmh-ln {
+    white-space: nowrap !important;
+  }
+
+  .pmmt.is-pin .pmmt-stage {
+    padding-top: max(96px, calc(var(--top, 14px) + var(--barh, 56px) + 24px)) !important;
+    padding-bottom: 32px !important;
+    box-sizing: border-box !important;
+  }
+
+  .pmmt-ph {
+    height: min(calc(100svh - 220px), 640px) !important;
+  }
+
+  .pmmt-steps {
+    gap: clamp(10px, 1.8vh, 22px) !important;
+    margin-top: clamp(10px, 2vh, 24px) !important;
+  }
+
+  .pmmt-t {
+    font-size: clamp(22px, 1.8vw, 30px) !important;
+  }
+
+  .pmmt-d {
+    font-size: 14.5px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+/* Footer clearance under floating navbar */
+.pmft {
+  padding-top: max(100px, calc(var(--top, 14px) + var(--barh, 56px) + 32px)) !important;
+}
+
+@media (max-width: 809px) {
+  .pmft,
+  .pmft.is-ph {
+    padding-top: max(84px, calc(var(--top, 14px) + var(--barh, 52px) + 18px)) !important;
+  }
+}
+
 /* Site layout (Framer "Site Layout" template) */
 .fr-root {
   display: flex;

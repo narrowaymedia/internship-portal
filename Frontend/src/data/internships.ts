@@ -4,10 +4,10 @@ export const internships: Internship[] = [
   {
     id: "int-01",
     slug: "atelier-creative-software-fellow",
-    title: "Creative Software Engineer Fellow",
+    title: "Full-Stack Web Development Fellow",
     company: "Atelier Interactive",
     companyLogo: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=80",
-    department: "Software Engineering",
+    department: "Web Development",
     location: "San Francisco, CA / Remote",
     workplaceType: "Remote",
     stipend: "$3,800 / month",
@@ -17,64 +17,64 @@ export const internships: Internship[] = [
     deadline: "April 15, 2027",
     openings: 3,
     level: "All Students",
-    skills: ["TypeScript", "WebGL / Three.js", "React & Next.js", "Creative Coding", "GLSL Shaders"],
+    skills: ["TypeScript", "Next.js & React", "Tailwind CSS", "Node.js & GraphQL", "State Architecture"],
     overview:
-      "Atelier Interactive creates bespoke digital exhibition experiences and generative graphics systems for museums, luxury maisons, and world-class design studios. As a Creative Software Fellow, you will collaborate with our core studio team to build fluid interactive web experiences, physics-driven micro-interactions, and high-performance visual pipelines.",
+      "Atelier Interactive creates high-performance web applications, interactive digital products, and design systems for forward-thinking technology companies. As a Web Development Fellow, you will collaborate with our core product engineering team to build accessible, lightning-fast web applications, design systems, and real-time interactive user interfaces.",
     responsibilities: [
-      "Develop bespoke interactive 3D components using WebGL, Three.js, and modern React.",
-      "Profile and optimize canvas and GPU performance targeting 60fps across mobile and desktop devices.",
-      "Participate in daily design crit sessions alongside lead art directors and technical architects.",
-      "Ship an end-of-fellowship experimental installation that will be featured on Atelier's public laboratory gallery."
+      "Architect and ship production-ready web interfaces using Next.js 15, React, and TypeScript.",
+      "Implement accessible, WCAG-compliant design system components with Tailwind CSS.",
+      "Profile and optimize client-side bundle size, Core Web Vitals, and rendering performance.",
+      "Ship a customer-facing feature from technical RFC through code review to production deployment."
     ],
     qualifications: [
-      "Demonstrated passion for the intersection of graphic design, motion, and web engineering.",
-      "Fluency in TypeScript and modern frontend build tools.",
-      "Working knowledge or eager curiosity in WebGL, Three.js, Canvas 2D API, or shader programming.",
-      "A portfolio or GitHub repository showcasing creative interactive projects or playful web experiments."
+      "Solid foundation in modern JavaScript/TypeScript, React fundamentals, and CSS layout engines.",
+      "Experience building responsive web applications with Next.js or React.",
+      "Understanding of REST APIs, state management, and Git collaboration workflows.",
+      "A GitHub repository or web project demonstrating clean code and attention to UI details."
     ],
     perks: [
       "$3,800 monthly living stipend + $1,000 home studio hardware allowance",
-      "1-on-1 weekly mentorship with Senior Creative Technologists",
+      "1-on-1 weekly mentorship with Senior Frontend & Full-Stack Architects",
       "Fast-track interview guarantee for full-time junior positions upon graduation",
-      "Complimentary lifetime access to all Primer design & coding masterclasses"
+      "Complimentary access to all Primer engineering masterclasses and workshop libraries"
     ],
     mentors: [
       {
         name: "Soren Kjaer",
-        role: "Head of Creative Technology",
+        role: "Head of Web Engineering",
         avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
-        bio: "Former lead graphics engineer at Pentagram & Stink Studios with 12 years building immersive web experiences."
+        bio: "Former lead frontend engineer at Pentagram & Stink Studios with 12 years building high-impact web products."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Architecture & Generative Prototyping",
-        description: "Onboard into our design engine, master our shared shader library, and prototype 3 interactive sandbox sketches."
+        title: "Architecture & Design System Foundations",
+        description: "Onboard into our component library, establish typed API clients, and ship 3 core UI modules."
       },
       {
         phase: "Month 2",
-        title: "Client Production & GPU Optimization",
-        description: "Contribute production code to an active client showcase, profiling frame rates, memory buffers, and touch gestures."
+        title: "Production Features & State Engineering",
+        description: "Own an end-to-end user flow in our flagship application with real-time optimistic updates."
       },
       {
         phase: "Month 3",
-        title: "Capstone Exhibition Project",
-        description: "Lead the design and implementation of your own independent web installation with full creative autonomy."
+        title: "Performance Optimization & Release",
+        description: "Conduct Core Web Vitals profiling, implement automated testing suites, and present your work."
       }
     ],
     partnerTier: "Global Atelier",
     featured: true,
     relatedCourseSlug: "graphic-design-basics",
-    relatedCourseTitle: "Graphic Design Basics"
+    relatedCourseTitle: "Web Engineering Basics"
   },
   {
     id: "int-02",
     slug: "bauhaus-product-design-intern",
-    title: "Junior Product & Design Systems Intern",
+    title: "Frontend & Web Design Systems Intern",
     company: "Studio Forma",
     companyLogo: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=200&auto=format&fit=crop&q=80",
-    department: "UI/UX Design",
+    department: "Web Development",
     location: "Berlin, Germany / Hybrid",
     workplaceType: "Hybrid",
     stipend: "€3,200 / month",
@@ -84,64 +84,64 @@ export const internships: Internship[] = [
     deadline: "April 1, 2027",
     openings: 2,
     level: "Undergraduate",
-    skills: ["Figma Design Systems", "Typography", "User Research", "Prototyping", "WCAG Accessibility"],
+    skills: ["TypeScript", "React 19", "Design Tokens", "Storybook", "WCAG Accessibility"],
     overview:
-      "Studio Forma is an international product design consultancy based in Berlin-Kreuzberg. We partner with climate-tech ventures, architectural archives, and cultural institutions to design enduring, human-centered digital tools. We are seeking an ambitious Design Systems Intern to assist in token architecture, accessibility audits, and micro-copy crafting.",
+      "Studio Forma is an international digital product consultancy based in Berlin-Kreuzberg. We partner with climate-tech ventures and open-source foundations to build enduring, accessible web applications. We are seeking an ambitious Web Engineering Intern to assist in token architecture, component testing, and modern frontend development.",
     responsibilities: [
-      "Audit and expand multi-brand design tokens (color luminance, typography scales, spacing grids).",
-      "Prototype micro-interactions and interactive states in high-fidelity Figma components.",
-      "Conduct user testing interviews and synthesize feedback into tangible UI refinements.",
-      "Document pattern libraries and component usage guidelines for engineering handoff."
+      "Audit, refactor, and expand our multi-brand design system component library in Storybook.",
+      "Build high-fidelity, keyboard-accessible web components with React and modern CSS tokens.",
+      "Implement unit and integration tests using Vitest and Testing Library to guarantee 95%+ test coverage.",
+      "Document component APIs, interaction patterns, and developer guidelines for engineering handoff."
     ],
     qualifications: [
-      "Strong foundational eye for grid systems, typographic hierarchy, and negative space.",
-      "High proficiency with Figma, auto-layout, variables, and interactive components.",
-      "Basic understanding of frontend constraints (HTML/CSS, responsive breakpoints).",
-      "Empathy for inclusive design and accessibility compliance."
+      "Strong foundational skills in modern HTML, CSS, JavaScript, and React component lifecycles.",
+      "Familiarity with TypeScript interfaces, props validation, and state management.",
+      "Empathy for inclusive design, accessibility compliance (WCAG 2.1 AA), and semantic markup.",
+      "Curiosity about frontend tooling, bundling, and design system governance."
     ],
     perks: [
       "€3,200 / month stipend + local Berlin public transport pass (Deutschlandticket)",
-      "Dedicated desk in our studio overlooking the Spree River",
-      "Bi-weekly guest lectures from European design leaders",
-      "Sponsored book allowance for art and typography monographs"
+      "Dedicated ergonomic workspace in our canal-side Kreuzberg studio",
+      "Bi-weekly engineering roundtables with European technology leaders",
+      "Sponsored book allowance and ticket to major European web conferences"
     ],
     mentors: [
       {
         name: "Greta Lindemann",
-        role: "Partner & Design Director",
+        role: "Design Systems Lead & Principal Engineer",
         avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80",
-        bio: "Previously Design Principal at Ideo and professor of visual communication at UdK Berlin."
+        bio: "Previously Design Principal at Ideo and open-source maintainer of widely adopted web UI libraries."
       }
     ],
     milestones: [
       {
         phase: "Month 1-2",
-        title: "Tokens, Grids & Systematic Audits",
-        description: "Standardize component libraries across 3 active client design files and document spacing tokens."
+        title: "Tokens, Grids & Systematic Component Audits",
+        description: "Standardize component libraries across 3 active client apps and document spacing & typography tokens."
       },
       {
         phase: "Month 3-4",
-        title: "User Testing & Friction Analysis",
-        description: "Shadow usability testing sessions, identify friction points, and iterate on high-fidelity flows."
+        title: "Interactive Components & Usability Testing",
+        description: "Build accessible dropdowns, modals, and datagrids, refining keyboard navigation and focus rings."
       },
       {
         phase: "Month 5-6",
-        title: "Live Feature Ownership",
-        description: "Own the end-to-end design of a major dashboard module from wireframe to developer handoff."
+        title: "Production Release & Framework Governance",
+        description: "Package the design system as an internal npm library and integrate automated visual regression tests."
       }
     ],
     partnerTier: "Premier Studio",
     featured: true,
     relatedCourseSlug: "packaging-design",
-    relatedCourseTitle: "Packaging Design"
+    relatedCourseTitle: "Design Systems Engineering"
   },
   {
     id: "int-03",
     slug: "applied-ai-generative-design-fellow",
-    title: "Applied AI & Creative Tools Fellow",
+    title: "Applied AI & Large Language Models Fellow",
     company: "Synapse Generative",
     companyLogo: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=200&auto=format&fit=crop&q=80",
-    department: "AI & Machine Learning",
+    department: "AI Engineer",
     location: "New York, NY / Remote",
     workplaceType: "Remote",
     stipend: "$4,500 / month",
@@ -151,525 +151,525 @@ export const internships: Internship[] = [
     deadline: "April 20, 2027",
     openings: 2,
     level: "All Students",
-    skills: ["Python", "PyTorch", "Diffusion Models", "Next.js", "Latent Space Exploration"],
+    skills: ["Python", "PyTorch", "LangChain & LlamaIndex", "Vector DBs & RAG", "Hugging Face"],
     overview:
-      "Synapse Generative builds computational assistants for architects, film colourists, and industrial designers. We do not replace human taste; we amplify it. As an Applied AI Fellow, you will experiment with diffusion latents, fine-tune multimodal visual models on architectural drawings, and expose interactive parameters to web canvases.",
+      "Synapse Generative builds computational AI agents and enterprise cognitive workflows. As an Applied AI Fellow, you will research, evaluate, and build retrieval-augmented generation (RAG) pipelines, experiment with fine-tuning open-weights models, and deploy production inference endpoints with low latency.",
     responsibilities: [
-      "Benchmark and evaluate small generative visual models for real-time latency on edge devices.",
-      "Train LoRA adaptors on curated design corpora (wood joints, typography specimens, film negatives).",
-      "Build web-based inspection tools using Next.js and WebSockets to visualize latent interpolations.",
-      "Write clear technical notes and open-source demonstration notebooks."
+      "Benchmark and evaluate small generative language models for real-time inference latency.",
+      "Design and deploy hybrid vector search retrieval systems using Qdrant and pgvector.",
+      "Implement guardrails, hallucination checks, and evaluation harnesses using PyTest and Ragas.",
+      "Write clear technical RFCs and open-source demonstration notebooks for our community."
     ],
     qualifications: [
-      "Experience training or fine-tuning vision/language models in PyTorch or TensorFlow.",
-      "Solid software engineering habits (clean Git commits, reproducible environments, type safety).",
-      "Appreciation for artistic craft, material textures, or cinematography.",
-      "Self-directed curiosity and strong communication skills."
+      "Experience training, evaluating, or fine-tuning language models in PyTorch or Hugging Face.",
+      "Solid Python software engineering habits (clean Git commits, type hints, virtual environments).",
+      "Familiarity with embeddings, vector similarity metrics, and prompt orchestration.",
+      "Self-directed curiosity and strong technical communication skills."
     ],
     perks: [
       "$4,500 / month stipend + unlimited cloud GPU compute cluster access (H100/A100)",
       "Co-authorship on lab research papers and open-source models",
-      "Direct weekly check-ins with Chief Scientist",
-      "Full attendance sponsorship for CVPR or SIGGRAPH"
+      "Direct weekly check-ins with our Chief Scientist & Research Team",
+      "Full attendance sponsorship for NeurIPS, ICML, or CVPR"
     ],
     mentors: [
       {
         name: "Dr. Elena Rostova",
         role: "Chief Scientist & Co-Founder",
         avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
-        bio: "PhD from MIT Media Lab, former research scientist at DeepMind exploring computational aesthetics."
+        bio: "PhD from MIT CSAIL, former research scientist at DeepMind exploring agentic reasoning and alignment."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
         title: "Model Exploration & Synthetic Datasets",
-        description: "Construct fine-tuning pipelines and evaluate perceptual fidelity metrics on material textures."
+        description: "Construct fine-tuning pipelines and evaluate perceptual fidelity metrics on domain benchmarks."
       },
       {
         phase: "Month 2",
         title: "Real-time Inference Pipeline",
-        description: "Deploy an ONNX-quantized latent model with under-80ms interactive feedback loop inside a Next.js client."
+        description: "Deploy an ONNX-quantized model with under-80ms interactive feedback loop inside a Next.js client."
       },
       {
         phase: "Month 3",
         title: "Research Paper & Release",
-        description: "Publish open research weights, benchmark results, and an interactive web demo."
+        description: "Publish open research weights, benchmark results, and an interactive demonstration web application."
       }
     ],
     partnerTier: "Innovation Lab",
     featured: true,
     relatedCourseSlug: "filmmaking-on-a-budget",
-    relatedCourseTitle: "Filmmaking on a Budget"
+    relatedCourseTitle: "Applied AI Fundamentals"
   },
   {
     id: "int-04",
     slug: "monochrome-editorial-film-apprentice",
-    title: "Cinematography & Documentary Film Apprentice",
-    company: "Kino Verité Productions",
+    title: "Computer Vision & Video AI Systems Engineer",
+    company: "Kino Vision Lab",
     companyLogo: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=200&auto=format&fit=crop&q=80",
-    department: "Film & Motion",
-    location: "London, UK",
-    workplaceType: "On-site",
-    stipend: "£2,500 / month",
+    department: "AI Engineer",
+    location: "London, UK / Hybrid",
+    workplaceType: "Hybrid",
+    stipend: "£3,200 / month",
     duration: "4 Months",
     commitment: "Full-time (40 hrs/wk)",
     startDate: "July 1, 2027",
     deadline: "May 1, 2027",
     openings: 2,
     level: "All Students",
-    skills: ["DaVinci Resolve", "Arri / RED Camera Ops", "Lighting & Rigging", "Sound Recording", "Color Grading"],
+    skills: ["Python", "PyTorch", "OpenCV", "YOLOv9 & Object Tracking", "CUDA & TensorRT"],
     overview:
-      "Kino Verité is a BAFTA-nominated documentary production house based in Soho, London. We craft long-form non-fiction films that focus on artisans, cultural heritage, and environmental preservation. We are inviting an apprentice to work directly on set and in post-production suites on an upcoming feature documentary.",
+      "Kino Vision Lab develops next-generation computer vision and neural video processing systems for autonomous inspection, media generation, and real-time scene understanding. As an AI Systems Engineer, you will train state-of-the-art vision models and deploy ultra-low latency inference pipelines.",
     responsibilities: [
-      "Assist 1st and 2nd Camera Assistants on location shoots (rigging, lens swaps, focus pulling).",
-      "Manage on-set DIT (Digital Intermediate Technician) workflows and color checksum verifications.",
-      "Prepare DaVinci Resolve timelines, assemble rough documentary stringouts, and sync audio tracks.",
-      "Archive and organize 35mm film transfers and master raw media."
+      "Train, fine-tune, and evaluate deep convolutional and vision transformer models (ViT).",
+      "Build real-time video stream processing pipelines with OpenCV, GStreamer, and Python.",
+      "Profile and optimize inference pipelines using TensorRT, ONNX Runtime, and mixed precision.",
+      "Implement multi-camera object detection, re-identification, and spatial tracking algorithms."
     ],
     qualifications: [
-      "Hands-on familiarity with cinema cameras, prime lenses, and audio recording hardware.",
-      "Proficiency in DaVinci Resolve, Premiere Pro, or Final Cut Pro.",
-      "Strong stamina, attentiveness, and calmness on active documentary sets.",
-      "A short showreel or sample scene demonstrating natural lighting instincts."
+      "Solid theoretical understanding of linear algebra, digital image processing, and deep learning.",
+      "Proficiency in Python and PyTorch; familiarity with C++ or CUDA is a strong plus.",
+      "Hands-on experience with object detection, segmentation, or video processing architectures.",
+      "A GitHub repository with computer vision projects, Kaggle notebooks, or academic research."
     ],
     perks: [
-      "£2,500 monthly stipend + all location travel and catering covered",
-      "Screen credit as Camera Apprentice on the final theatrical release",
-      "Access to studio cinema cameras and editing suites for personal weekend shorts",
-      "Mentorship from veteran documentary directors of photography"
+      "£3,200 monthly stipend + dedicated multi-GPU workstation in Soho, London",
+      "Full cloud compute allocation for independent experimental runs",
+      "Screen credit and patent co-inventorship on lab production breakthroughs",
+      "Weekly 1-on-1 mentorship with veteran computer vision scientists"
     ],
     mentors: [
       {
         name: "Arthur Pendelton",
-        role: "Director of Photography (BSC)",
+        role: "Principal Computer Vision Scientist",
         avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80",
-        bio: "Veteran British cinematographer with 22 years of non-fiction credits on BBC, Netflix, and Channel 4."
+        bio: "Former lead vision engineer at DeepMind with 14 years developing neural rendering and real-time video architectures."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Camera Prep & DIT Standards",
-        description: "Master optical calibration, lens cleaning, colour management charts, and secure SSD archival."
+        title: "Video Dataset Pipelines & Benchmark Standards",
+        description: "Build robust video ingestion pipelines, synthetic data augmentation, and evaluation benchmarks."
       },
       {
         phase: "Month 2-3",
-        title: "Field Shoots & Location Rigging",
-        description: "Work on 14 days of practical field shoots handling multi-camera setups and natural light diffusion."
+        title: "Model Architecture & GPU Acceleration",
+        description: "Fine-tune vision transformer backbones and implement TensorRT engine compilation for 60fps inference."
       },
       {
         phase: "Month 4",
-        title: "Colour Suite & Finishing",
-        description: "Sit in with master colourists during final SDR/HDR grade and deliverables mastering."
+        title: "Live Production Deployment & Benchmarking",
+        description: "Deploy the vision model to our live video pipeline and measure cross-device latency."
       }
     ],
     partnerTier: "Premier Studio",
     featured: false,
     relatedCourseSlug: "filmmaking-on-a-budget",
-    relatedCourseTitle: "Filmmaking on a Budget"
+    relatedCourseTitle: "Deep Learning for Vision"
   },
   {
     id: "int-05",
     slug: "narrative-brand-writing-resident",
-    title: "Brand Storytelling & Editorial Resident",
-    company: "Aura Creative Collective",
+    title: "NLP & Conversational AI Systems Fellow",
+    company: "Cortex AI Labs",
     companyLogo: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=200&auto=format&fit=crop&q=80",
-    department: "Creative Writing",
+    department: "AI Engineer",
     location: "Remote / Worldwide",
     workplaceType: "Remote",
-    stipend: "$2,800 / month",
+    stipend: "$3,600 / month",
     duration: "3 Months",
-    commitment: "Part-time (25 hrs/wk)",
+    commitment: "Full-time (40 hrs/wk)",
     startDate: "June 1, 2027",
     deadline: "April 30, 2027",
     openings: 2,
     level: "Undergraduate",
-    skills: ["Long-form Prose", "Copywriting", "Interviews & Oral History", "Brand Tone", "Sub-editing"],
+    skills: ["Python", "Transformers", "LoRA Fine-Tuning", "vLLM & Inference", "FastAPI"],
     overview:
-      "Aura is an editorial studio that shapes brand voices, publishes quarterly print anthologies, and ghostwrites thoughtful essays for visionary founders. The Editorial Resident will research craftspeople, conduct recorded interviews, and write long-form features that read with rhythm, warmth, and precision.",
+      "Cortex AI Labs develops specialized enterprise language models and multi-agent systems. The Conversational AI Fellow will work on post-training alignment, direct preference optimization (DPO), low-latency streaming endpoints, and synthetic data generation for reasoning tasks.",
     responsibilities: [
-      "Draft profiles and essays celebrating master craftspeople, winemakers, and architects.",
-      "Conduct transcribed interviews and pull arresting pull-quotes.",
-      "Collaborate with graphic designers to pair text cadence with editorial layout pacing.",
-      "Edit and proofread quarterly print publications against the Chicago Manual of Style."
+      "Curate, clean, and annotate domain-specific text datasets for supervised fine-tuning (SFT).",
+      "Run parameter-efficient fine-tuning (PEFT/LoRA) on modern open-source LLMs (Llama, Mistral, Gemma).",
+      "Build high-throughput streaming inference APIs using vLLM, FastAPI, and server-sent events.",
+      "Evaluate reasoning benchmarks, benchmark token throughput, and mitigate hallucinations."
     ],
     qualifications: [
-      "A clear, unpretentious writing voice with respect for cadence and brevity.",
-      "Proven ability to research unfamiliar topics thoroughly and cite accurate details.",
-      "Comfort conducting phone or video interviews with strangers.",
-      "Submission of 2 writing samples (essays, cultural criticism, or fiction)."
+      "Fluency in Python, modern NLP libraries (Hugging Face Transformers, Datasets, Accelerate).",
+      "Deep understanding of transformer self-attention, tokenization, and temperature sampling.",
+      "Experience with API development and asynchronous programming in Python.",
+      "Clear technical writing and enthusiasm for open-source AI models."
     ],
     perks: [
-      "$2,800 monthly stipend for flexible part-time hours (ideal for students)",
-      "Published bylines in Aura’s print journal distributed to 40+ international bookshops",
-      "One-on-one line-editing masterclasses with former Paris Review editors",
-      "Home library book stipend ($500)"
+      "$3,600 monthly stipend for remote work across any timezone",
+      "Access to 8x H100 GPU training clusters for experimental runs",
+      "One-on-one mentorship with leading machine learning researchers",
+      "Home office setup budget ($750) and book grant"
     ],
     mentors: [
       {
-        name: "Marianne Vance",
-        role: "Editor-in-Chief",
+        name: "Dr. Marianne Vance",
+        role: "Lead NLP Research Scientist",
         avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80",
-        bio: "Author of two essay collections and former features editor at Granta and The Atlantic."
+        bio: "PhD in Computational Linguistics from Oxford, previous research engineer at Hugging Face."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Voice Calibration & Archival Research",
-        description: "Study brand style guides, conduct background research on 4 upcoming feature subjects."
+        title: "Data Curation & Alignment Benchmarks",
+        description: "Formulate synthetic data pipelines and establish standardized reasoning evaluation rubrics."
       },
       {
         phase: "Month 2",
-        title: "Long-form Profile Drafting",
-        description: "Conduct primary interviews, write first draft (3,000 words), and undergo intensive line edits."
+        title: "Supervised Fine-Tuning & Evaluation",
+        description: "Execute parameter-efficient fine-tuning and evaluate model perplexity against baseline models."
       },
       {
         phase: "Month 3",
-        title: "Print Production & Publishing",
-        description: "Finalize proof passes, attend press check, and author promotional launch newsletter."
+        title: "Serving Engine & Public Release",
+        description: "Deploy the aligned model to a vLLM serving container and publish our technical findings."
       }
     ],
     partnerTier: "Premier Studio",
     featured: false,
     relatedCourseSlug: "creative-writing",
-    relatedCourseTitle: "Creative Writing"
+    relatedCourseTitle: "Natural Language Processing"
   },
   {
     id: "int-06",
     slug: "culinary-arts-kitchen-staging",
-    title: "Modern Gastronomy Culinary Stage",
-    company: "Osteria Nuova",
+    title: "Python Backend & High-Throughput API Systems Intern",
+    company: "Novas Distributed Labs",
     companyLogo: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=200&auto=format&fit=crop&q=80",
-    department: "Culinary Arts",
-    location: "Florence, Italy",
-    workplaceType: "On-site",
-    stipend: "€2,400 / month + Studio Housing",
+    department: "Python",
+    location: "Berlin, Germany / Remote",
+    workplaceType: "Remote",
+    stipend: "$3,500 / month",
     duration: "4 Months",
-    commitment: "Full-time (42 hrs/wk)",
+    commitment: "Full-time (40 hrs/wk)",
     startDate: "May 1, 2027",
     deadline: "March 25, 2027",
     openings: 2,
     level: "All Students",
-    skills: ["Classical Knife Skills", "Pasta Extrusion & Rolling", "Sauce Chemistry", "Butchery", "Plating"],
+    skills: ["Python 3.12", "FastAPI & Asyncio", "PostgreSQL & SQLAlchemy", "Redis & Celery", "Docker & CI/CD"],
     overview:
-      "Osteria Nuova holds one Michelin star for its hyper-local Tuscan cooking and reverence for heritage grain flours, open-fire roasting, and wild forage. As a culinary stagiaire, you will work the line under Chef Marco Bellini, rotating through prep stations, pasta fresca, and fire management.",
+      "Novas Distributed Labs builds high-concurrency cloud infrastructure and financial data pipelines. As a Backend Systems Intern, you will architect asynchronous REST and WebSocket microservices, optimize database queries, and design robust distributed caching layers handling millions of requests per day.",
     responsibilities: [
-      "Prepare daily mise-en-place with extreme precision (brunoise, concassé, emulsified stocks).",
-      "Roll, shape, and fill regional pasta varieties (agnolotti, pici, tortelli) from stoneground grains.",
-      "Manage wood-fired grill temperatures during live dinner services.",
-      "Visit morning markets and regional producers in Chianti to select seasonal produce."
+      "Develop asynchronous RESTful API services using modern Python 3.12, FastAPI, and Pydantic v2.",
+      "Design relational schemas, manage database migrations (Alembic), and optimize slow SQL queries in PostgreSQL.",
+      "Implement distributed task queues and message brokering using Redis, Celery, and RabbitMQ.",
+      "Write thorough unit and integration test suites with Pytest and configure automated GitHub Actions CI/CD."
     ],
     qualifications: [
-      "Culinary school student or passionate self-taught cook with rigorous knife fundamentals.",
-      "Physical stamina, punctuality, and humility in a fast-paced kitchen environment.",
-      "Basic Italian language curiosity (kitchen Italian taught on site).",
-      "Food hygiene and safety certification."
+      "Strong command of modern Python fundamentals, object-oriented principles, and async/await syntax.",
+      "Solid understanding of relational databases, SQL queries, and normalization.",
+      "Familiarity with containerization (Docker) and REST API design patterns.",
+      "Enthusiasm for backend scalability, error handling, and clean code architecture."
     ],
     perks: [
-      "€2,400/month stipend + furnished private studio apartment in central Florence included",
-      "All staff meals provided daily by the kitchen team",
-      "Direct recommendation letter from Michelin-starred Chef Marco Bellini",
-      "Visits to olive oil mills and Parmigiano dairies in Emilia-Romagna"
+      "$3,500/month stipend + comprehensive remote office setup equipment",
+      "Direct weekly code reviews from veteran distributed systems architects",
+      "Full company-sponsored AWS certification exam vouchers",
+      "Collaborative, high-trust engineering culture with flexible hours"
     ],
     mentors: [
       {
         name: "Marco Bellini",
-        role: "Chef Patron & Restaurateur",
+        role: "Principal Systems Architect",
         avatar: "https://framerusercontent.com/images/uw6MU2iVNFnh4k9MY7NlYuASg.webp",
-        bio: "Instructor of Primer's 'Cook Like a Chef' course, 19 years running award-winning kitchens across Italy."
+        bio: "Senior backend engineer with 15 years designing distributed microservices across fintech and logistics."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Station Prep & Foundations",
-        description: "Master knife sharpening on whetstones, vegetable prep speed, and foundational broths."
+        title: "Async Architecture & API Schemas",
+        description: "Master FastAPI async patterns, implement strict Pydantic schemas, and ship your first internal microservice."
       },
       {
         phase: "Month 2-3",
-        title: "Pasta Fresca & Fire Station",
-        description: "Operate the pasta rolling station during lunch service and manage ember temperatures."
+        title: "Distributed Queues & Database Optimization",
+        description: "Build a reliable Celery worker pipeline with Redis caching that processes asynchronous batch jobs."
       },
       {
         phase: "Month 4",
-        title: "Special Dish Creation",
-        description: "Develop a seasonal antipasto dish featured on the restaurant's weekly tasting menu."
+        title: "Production Deployment & Stress Testing",
+        description: "Execute Locust load tests, profile memory leaks, and deploy services with automated container health checks."
       }
     ],
     partnerTier: "Global Atelier",
     featured: true,
     relatedCourseSlug: "cook-like-a-chef",
-    relatedCourseTitle: "Cook Like a Chef"
+    relatedCourseTitle: "Modern Python Backend Engineering"
   },
   {
     id: "int-07",
     slug: "spatial-woodwork-apprentice",
-    title: "Architectural Millwork & Woodcraft Intern",
-    company: "Timber & Grain Guild",
+    title: "Python Systems & Cloud Automation Intern",
+    company: "Kite Cloud Systems",
     companyLogo: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&auto=format&fit=crop&q=80",
-    department: "Industrial Craft",
+    department: "Python",
     location: "Stockholm, Sweden / Hybrid",
     workplaceType: "Hybrid",
-    stipend: "SEK 32,000 / month (~$3,100)",
+    stipend: "$3,400 / month",
     duration: "5 Months",
     commitment: "Full-time (40 hrs/wk)",
     startDate: "June 1, 2027",
     deadline: "April 15, 2027",
-    openings: 1,
+    openings: 2,
     level: "All Students",
-    skills: ["Hand Joinery", "Japanese Saws & Planes", "Timber Grading", "Rhino 3D / CAD", "Natural Finishes"],
+    skills: ["Python", "AWS & Terraform", "Docker & Kubernetes", "Linux & Shell", "Prometheus & Grafana"],
     overview:
-      "Timber & Grain Guild creates bespoke furniture, sculptural staircases, and timber pavilions using sustainably harvested Nordic pine and ash. The Woodcraft Intern will learn traditional hand-cut mortise-and-tenon joinery, modern CNC precision milling, and organic wax and soap finishes.",
+      "Kite Cloud Systems provides cloud management and DevOps observability solutions for cloud-native enterprises. As a Python Systems Intern, you will write custom automation scripts, Kubernetes operators, and observability collectors that keep thousands of multi-region cloud servers running flawlessly.",
     responsibilities: [
-      "Cut and fit precision wood joints by hand using Japanese dozuki saws and chisels.",
-      "Operate shop machinery safely (planers, bandsaws, spindle molders) under direct supervision.",
-      "Draft 1:1 scale construction shop drawings in Rhino 3D.",
-      "Apply traditional Scandinavian lye and oil finishes to custom dining tables."
+      "Write Python automation tooling and CLI utilities using Click and Rich for internal infrastructure teams.",
+      "Provision and automate multi-tenant cloud environments using Terraform and AWS SDK (Boto3).",
+      "Deploy and manage containerized microservices on Kubernetes clusters with custom health monitors.",
+      "Build custom Prometheus metrics exporters and real-time operational Grafana dashboards in Python."
     ],
     qualifications: [
-      "Demonstrated woodworking experience or formal furniture design / craft coursework.",
-      "Uncompromising respect for shop safety protocols and eye/ear protection.",
-      "Patience for measuring twice and cutting once with 0.5mm tolerances.",
-      "Photos of at least one finished piece of furniture or woodwork made by hand."
+      "Comfortable with Python scripting, Linux systems administration, and Bash scripting.",
+      "Understanding of cloud infrastructure concepts (VPCs, subnets, compute instances, object storage).",
+      "Familiarity with containerization concepts using Docker.",
+      "Rigorous mindset for system reliability, telemetry, and automated tests."
     ],
     perks: [
-      "SEK 32,000 / month stipend",
-      "Personal set of hand-forged Japanese chisels and water stones to keep forever",
-      "Build your own custom hardwood workbench during shop hours as an induction project",
-      "Guidance to enter your work into the Nordic Craft Biennial"
+      "$3,400 / month stipend + monthly commuter transit pass",
+      "Hands-on sandbox environment with $5,000 AWS/GCP development budget",
+      "Direct 1-on-1 weekly mentorship with Lead DevOps Engineers",
+      "Option to transition into a permanent Junior SRE / Cloud Engineer role"
     ],
     mentors: [
       {
         name: "Lars Lindqvist",
-        role: "Master Cabinetmaker",
+        role: "Lead Cloud Infrastructure Engineer",
         avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=80",
-        bio: "30-year veteran guild member and restoration consultant for historic Swedish timber structures."
+        bio: "Veteran infrastructure architect with 16 years scaling high-availability Kubernetes platforms in the Nordics."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Hand Tool Mastery & Personal Bench",
-        description: "Sharpening geometry, hand-planing flats, and constructing your bespoke studio bench."
+        title: "Infrastructure as Code & Tooling",
+        description: "Set up reproducible cloud developer sandboxes using Terraform, Python Boto3, and automated linters."
       },
       {
         phase: "Month 2-3",
-        title: "Architectural Millwork Commissions",
-        description: "Assist on large-scale oak shelving and sliding screen installations for private residences."
+        title: "Kubernetes Automation Operators",
+        description: "Develop a custom Python-based Kubernetes controller that manages auto-scaling and ephemeral preview environments."
       },
       {
         phase: "Month 4-5",
-        title: "Signature Chair Build",
-        description: "Craft a steam-bent dining chair from raw green timber to final soap-finish buffing."
+        title: "Observability Exporter & Blue/Green Releases",
+        description: "Implement custom telemetry exporters and test blue/green traffic shifting with zero downtime."
       }
     ],
     partnerTier: "Premier Studio",
     featured: false,
     relatedCourseSlug: "woodworking-at-home",
-    relatedCourseTitle: "Woodworking at Home"
+    relatedCourseTitle: "Cloud Architecture & Python"
   },
   {
     id: "int-08",
     slug: "visual-brand-identity-designer",
-    title: "Brand Packaging & Visual Identity Intern",
-    company: "Vessel Design Studio",
+    title: "Modern Web Applications & Interactive UI Fellow",
+    company: "Vessel UI Engineering",
     companyLogo: "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=200&auto=format&fit=crop&q=80",
-    department: "UI/UX Design",
+    department: "Web Development",
     location: "New York, NY / Hybrid",
     workplaceType: "Hybrid",
-    stipend: "$3,400 / month",
+    stipend: "$3,600 / month",
     duration: "3 Months (Summer 2027)",
     commitment: "Full-time (40 hrs/wk)",
     startDate: "June 14, 2027",
     deadline: "April 25, 2027",
     openings: 2,
     level: "Undergraduate",
-    skills: ["Packaging Dielines", "Adobe Illustrator", "Foil Stamping & Embossing", "Material Sourcing", "3D Mockups"],
+    skills: ["Next.js App Router", "Server Components", "Tailwind CSS", "Framer Motion", "Zustand"],
     overview:
-      "Vessel is an award-winning brand identity and structural packaging studio. We work with organic wineries, specialty coffee roasters, and ceramic artists to design sustainable paper, glass, and tin packaging that feels tactile on a shelf and leaves zero microplastics behind.",
+      "Vessel UI Engineering designs and builds tactile digital products, interactive dashboards, and design-led web platforms. As an Interactive UI Fellow, you will bridge the gap between design vision and technical execution by creating fluid, animated web interfaces with Next.js and Tailwind CSS.",
     responsibilities: [
-      "Prepare vector dielines and print-ready mechanicals with spot color channels.",
-      "Liaise with European paper mills (Fedrigoni, G.F Smith) to order tactile swatch specimens.",
-      "Build physical packaging mockups with exact scoring, folding, and weight distributions.",
-      "Create photorealistic 3D renders of bottles and boxes for client keynote decks."
+      "Translate Figma design systems into responsive, fluid React components with pixel precision.",
+      "Implement physics-based micro-interactions and transitions using Framer Motion.",
+      "Leverage Next.js App Router server and client components to achieve sub-second page loads.",
+      "Build interactive dashboard analytics and data visualization modules using modern charting tools."
     ],
     qualifications: [
-      "Exceptional typography skills and obsession with printed textures and specialty inks.",
-      "High speed and precision in Adobe Illustrator, InDesign, and Photoshop.",
-      "Understanding of CMYK vs RGB, pantone color matching, and paper grain directions.",
-      "Strong portfolio demonstrating cohesive brand identities across print and digital."
+      "Exceptional eye for typographic hierarchy, negative space, motion timing, and micro-interactions.",
+      "Strong skills in TypeScript, modern React, and Tailwind CSS utility classes.",
+      "Experience with state management libraries (Zustand, Redux, or React Context).",
+      "A portfolio of polished web applications, creative prototypes, or interactive sites."
     ],
     perks: [
-      "$3,400 monthly stipend + monthly MetroCard",
-      "Studio lunch provided 3 days a week from local Brooklyn bakeries",
-      "Attend on-site press checks at historic letterpress printers",
-      "Direct portfolio review by AIGA medalist design partners"
+      "$3,600 monthly stipend + monthly NYC MetroCard",
+      "Studio lunch provided 3 days a week in our Dumbo, Brooklyn loft",
+      "High-spec Apple Silicon MacBook Pro and 4K studio display provided",
+      "Direct code and design reviews by founding engineering partners"
     ],
     mentors: [
       {
         name: "Chloe Vance",
-        role: "Design Director & Founding Partner",
+        role: "Head of UI Engineering & Partner",
         avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
-        bio: "Former Pentagram senior designer, creator of award-winning sustainable packaging lines."
+        bio: "Former design engineer at Vercel and Pentagram, dedicated to elevating frontend craftsmanship and motion."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Print Mechanics & Substrate Library",
-        description: "Master paper weights, embossing tolerances, and generate mechanicals for 2 client lines."
+        title: "Component Foundations & Theme Tokens",
+        description: "Build an accessible, animated component set with Tailwind CSS and establish responsive layout grids."
       },
       {
         phase: "Month 2",
-        title: "Client Concept Pitching",
-        description: "Develop 3 distinct visual identity directions for a boutique organic fragrance brand."
+        title: "State Architecture & Motion Interactions",
+        description: "Implement interactive dashboard features with Zustand state stores and smooth exit/enter page transitions."
       },
       {
         phase: "Month 3",
-        title: "Production Supervision",
-        description: "Attend foil-stamping press checks and assemble finished case studies for award submission."
+        title: "Production Web App Launch",
+        description: "Conduct cross-browser QA, optimize asset loading, and deploy the application to Vercel."
       }
     ],
     partnerTier: "Premier Studio",
     featured: false,
     relatedCourseSlug: "packaging-design",
-    relatedCourseTitle: "Packaging Design"
+    relatedCourseTitle: "Interactive UI Engineering"
   },
   {
     id: "int-09",
     slug: "documentary-photojournalism-fellow",
-    title: "Visual Journalism & Darkroom Fellow",
-    company: "Atlas Photo Guild",
+    title: "Multimodal AI & Foundation Models Fellow",
+    company: "Atlas Neural Lab",
     companyLogo: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=200&auto=format&fit=crop&q=80",
-    department: "Film & Motion",
+    department: "AI Engineer",
     location: "Paris, France / Remote",
-    workplaceType: "Hybrid",
-    stipend: "€2,800 / month",
+    workplaceType: "Remote",
+    stipend: "$4,200 / month",
     duration: "4 Months",
     commitment: "Full-time (38 hrs/wk)",
     startDate: "September 1, 2027",
     deadline: "May 30, 2027",
-    openings: 1,
+    openings: 2,
     level: "Graduate",
-    skills: ["Medium Format Film", "Silver Gelatin Darkroom", "Archival Scanning", "Editorial Sequencing", "Photo Essay"],
+    skills: ["PyTorch", "CLIP & Vision-Language", "Multimodal RAG", "Embedding Spaces", "Distributed Training"],
     overview:
-      "Atlas Photo Guild supports independent photographers working on slow, deeply researched visual investigations. As a Visual Journalism Fellow, you will split time between our historic wet darkroom in Paris, fieldwork reporting on agricultural transitions, and digital high-resolution Hasselblad scanning.",
+      "Atlas Neural Lab develops multimodal foundation models connecting computer vision, speech, and natural language. As a Foundation Models Fellow, you will train cross-modal embeddings, build multimodal search engines, and evaluate zero-shot transfer capabilities across vast datasets.",
     responsibilities: [
-      "Mix chemistry and hand-develop black & white 120 and 4x5 large format sheet films.",
-      "Perform high-resolution drum scans, spot retouching, and ICC color profile calibrations.",
-      "Work alongside veteran Magnum and VII photojournalists to sequence narrative photo essays.",
-      "Prepare silver gelatin archival prints for gallery exhibitions and collectors."
+      "Train and fine-tune dual-encoder models (CLIP, SigLIP) on paired image-text and audio-text datasets.",
+      "Build high-dimensional vector search pipelines connecting multimodal queries to media libraries.",
+      "Implement distributed data-parallel training routines using PyTorch Distributed and DeepSpeed.",
+      "Publish benchmarks on zero-shot classification, cross-modal retrieval, and representation alignment."
     ],
     qualifications: [
-      "Solid foundation in analog photography (film processing, exposure zones, chemistry safety).",
-      "Sensitivity and ethics in documentary reporting and portraiture.",
-      "Working knowledge of Photoshop, Lightroom, and color negative inversion tools.",
-      "A cohesive photo series (8-15 images) with a written project statement."
+      "Solid theoretical and practical background in machine learning, PyTorch, and linear algebra.",
+      "Experience with multimodal architectures (vision transformers, contrastive learning, cross-attention).",
+      "Comfortable managing training runs on Linux GPU clusters using Slurm or Docker.",
+      "A published paper, preprint, or GitHub project showcasing deep learning proficiency."
     ],
     perks: [
-      "€2,800 / month stipend + unlimited darkroom chemicals and Ilford paper supply",
-      "Loan of Hasselblad 500C/M camera kit for the duration of the fellowship",
-      "Solo exhibition in the guild gallery during Paris Photo week",
-      "Curatorial mentorship from international museum photo curators"
+      "$4,200 / month stipend + dedicated cloud GPU cluster allocation",
+      "Remote-first setup with option to visit our central Paris laboratory",
+      "Co-authorship on peer-reviewed papers submitted to top AI conferences",
+      "Direct mentorship from senior researchers with extensive publication records"
     ],
     mentors: [
       {
-        name: "Claire Delacroix",
-        role: "Master Printer & Photo Editor",
+        name: "Dr. Claire Delacroix",
+        role: "Head of Multimodal Research",
         avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80",
-        bio: "Former chief printer at Picto Paris with 25 years developing for legendary street photographers."
+        bio: "PhD in Machine Learning from Inria, previous senior research scientist at Meta AI FAIR."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Darkroom Mastery & Archival Chemistry",
-        description: "Calibrate dev times for Tri-X, HP5, and FP4 films; master split-grade contrast printing."
+        title: "Multimodal Vector Search Architecture",
+        description: "Benchmark zero-shot cross-modal retrieval and build an interactive embedding visualization tool."
       },
       {
         phase: "Month 2-3",
-        title: "Fieldwork & Long-form Storytelling",
-        description: "Shoot a documentary project on artisanal salt harvesting along the Brittany coast."
+        title: "Contrastive Pretraining & Alignment",
+        description: "Scale distributed training runs across multi-GPU nodes with mixed precision and gradient checkpointing."
       },
       {
         phase: "Month 4",
-        title: "Exhibition Printmaking & Book Dummy",
-        description: "Produce 20 exhibition prints and hand-bind a limited edition artist photobook."
+        title: "Evaluation & Research Publication",
+        description: "Author comprehensive benchmark reports and release an open-source multimodal retrieval toolkit."
       }
     ],
     partnerTier: "Global Atelier",
     featured: false,
     relatedCourseSlug: "film-photography",
-    relatedCourseTitle: "Film Photography"
+    relatedCourseTitle: "Multimodal Machine Learning"
   },
   {
     id: "int-10",
     slug: "fine-arts-studio-assistant-residency",
-    title: "Large-Scale Canvas & Pigment Studio Assistant",
-    company: "Studio Lena Hart",
+    title: "Python Data Science & Quantitative Analytics Fellow",
+    company: "Veritas Quantitative Research",
     companyLogo: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=200&auto=format&fit=crop&q=80",
-    department: "Industrial Craft",
-    location: "Berlin, Germany",
-    workplaceType: "On-site",
-    stipend: "€2,600 / month",
+    department: "Python",
+    location: "London, UK / Hybrid",
+    workplaceType: "Hybrid",
+    stipend: "£3,400 / month",
     duration: "4 Months",
     commitment: "Full-time (36 hrs/wk)",
     startDate: "May 1, 2027",
     deadline: "April 1, 2027",
     openings: 2,
     level: "All Students",
-    skills: ["Linen Stretching", "Rabbit-Skin Gesso", "Pigment Grinding", "Crating & Art Handling", "Studio Prep"],
+    skills: ["Python", "Pandas & Polars", "NumPy & SciPy", "DuckDB & SQL", "Streamlit & Plotly"],
     overview:
-      "Work directly inside the studio of fine artist Lena Hart (lead instructor of Primer’s Abstract Painting masterclass) as she prepares a solo museum exhibition. The studio assistant will gain first-hand experience building heavy stretcher bars, preparing mineral pigments, mixing rabbit-skin glue gesso, and managing international gallery freight logistics.",
+      "Veritas Quantitative Research develops algorithmic forecasting systems and high-frequency analytical models. The Data Science Fellow will build data ingestion pipelines, perform exploratory data analysis, train predictive models, and deliver interactive analytical dashboards for decision-makers.",
     responsibilities: [
-      "Construct custom heavy-duty mortise stretcher bars up to 3 meters in length.",
-      "Stretch raw Belgian linen taut without warping and apply traditional hot size coatings.",
-      "Mull dry earth and mineral pigments with linseed oil, walnut oil, and damar varnish.",
-      "Pack and crate delicate high-relief textured canvases for shipping to Basel and London galleries."
+      "Construct high-throughput data processing pipelines using Python, Polars, and DuckDB.",
+      "Perform statistical exploratory analysis, hypothesis testing, and time-series feature engineering.",
+      "Train and validate predictive regression and classification models with Scikit-learn and LightGBM.",
+      "Build reactive, real-time executive analytics dashboards with Streamlit and Plotly."
     ],
     qualifications: [
-      "Fine arts student or studio practitioner with genuine physical energy and care for materials.",
-      "Experience stretching canvas, using power saws, and handling wet oil mediums.",
-      "Attention to detail, order, and cleanliness in a professional working atelier.",
-      "Enthusiasm for contemporary abstract painting and gallery operations."
+      "Strong skills in Python programming, Pandas/Polars, and SQL database querying.",
+      "Solid background in probability, statistics, and exploratory data analysis.",
+      "Experience with data visualization libraries (Plotly, Matplotlib, Seaborn).",
+      "Demonstrated ability to communicate quantitative insights through clear charts and reports."
     ],
     perks: [
-      "€2,600 monthly stipend",
-      "Private 15 sqm studio space in the facility for personal creative work after hours",
-      "Direct daily mentorship from acclaimed painter Lena Hart",
-      "VIP pass and travel to the artist’s solo opening in Basel"
+      "£3,400 monthly stipend + central London office access overlooking the Thames",
+      "Fast-track interview for Quantitative Analyst or Data Scientist graduate roles",
+      "Direct daily mentorship from senior quantitative researchers and statisticians",
+      "Sponsorship for professional data science conferences and certifications"
     ],
     mentors: [
       {
-        name: "Lena Hart",
-        role: "Painter & Fine Artist",
+        name: "Dr. Lena Hart",
+        role: "Head of Quantitative Analytics",
         avatar: "https://framerusercontent.com/images/TATDi0y8zaKMAxLQeCeRnzRNg.webp",
-        bio: "Master teacher on Primer, 14 years exhibiting large-scale works in Berlin, New York, and Tokyo."
+        bio: "PhD in Applied Mathematics from Cambridge with 14 years developing quantitative data pipelines."
       }
     ],
     milestones: [
       {
         phase: "Month 1",
-        title: "Substrate & Gesso Calibration",
-        description: "Build and prime 12 large-format canvases to precise museum exhibition tension standards."
+        title: "High-Performance Data Ingestion & Cleaning",
+        description: "Build robust ETL pipelines in Polars that ingest and validate millions of historical time-series rows."
       },
       {
         phase: "Month 2-3",
-        title: "Pigment Formulation & Studio Support",
-        description: "Mull raw lapis, ochre, and slate pigments and assist on high-relief impasto layers."
+        title: "Statistical Feature Engineering & Modeling",
+        description: "Implement cross-validated predictive models and evaluate metric stability across market regimes."
       },
       {
         phase: "Month 4",
-        title: "Museum Crating & Exhibition Install",
-        description: "Construct foam-lined travel crates and assist gallery preparators during museum hanging."
+        title: "Interactive Dashboards & Executive Insights",
+        description: "Deploy an interactive Streamlit analytics platform that visualizes model predictions and risk metrics."
       }
     ],
     partnerTier: "Global Atelier",
     featured: true,
     relatedCourseSlug: "abstract-painting",
-    relatedCourseTitle: "Abstract Painting"
+    relatedCourseTitle: "Data Science with Python"
   }
 ];
 
@@ -677,19 +677,19 @@ export const defaultMockApplications: StudentApplication[] = [
   {
     id: "app-101",
     internshipSlug: "atelier-creative-software-fellow",
-    internshipTitle: "Creative Software Engineer Fellow",
+    internshipTitle: "Full-Stack Web Development Fellow",
     company: "Atelier Interactive",
     companyLogo: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=80",
-    department: "Software Engineering",
+    department: "Web Development",
     location: "San Francisco, CA / Remote",
     stipend: "$3,800 / month",
     workplaceType: "Remote",
     applicantName: "Alex Rivera",
     email: "alex.rivera@example.com",
-    university: "Rhode Island School of Design / Brown",
+    university: "UC Berkeley / Computer Science",
     graduationYear: "2027",
-    portfolioUrl: "https://github.com/alexrivera-creative",
-    coverNote: "Passionate about generative graphics and bridging procedural animations with modern web experiences.",
+    portfolioUrl: "https://github.com/alexrivera-tech",
+    coverNote: "Passionate about high-performance web applications, typed APIs, and building delightful user interfaces with Next.js and TypeScript.",
     appliedDate: "May 2, 2027",
     status: "Interview Scheduled",
     statusUpdateDate: "May 10, 2027",
@@ -698,19 +698,19 @@ export const defaultMockApplications: StudentApplication[] = [
   {
     id: "app-102",
     internshipSlug: "bauhaus-product-design-intern",
-    internshipTitle: "Junior Product & Design Systems Intern",
+    internshipTitle: "Frontend & Web Design Systems Intern",
     company: "Studio Forma",
     companyLogo: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=200&auto=format&fit=crop&q=80",
-    department: "UI/UX Design",
+    department: "Web Development",
     location: "Berlin, Germany / Hybrid",
     stipend: "€3,200 / month",
     workplaceType: "Hybrid",
     applicantName: "Alex Rivera",
     email: "alex.rivera@example.com",
-    university: "Rhode Island School of Design / Brown",
+    university: "UC Berkeley / Computer Science",
     graduationYear: "2027",
-    portfolioUrl: "https://alexrivera.design",
-    coverNote: "Strong focus on typography scales, auto-layout architecture, and WCAG accessibility audits.",
+    portfolioUrl: "https://alexrivera.dev",
+    coverNote: "Strong focus on accessible design systems, component testing in Storybook, and WCAG AA accessibility compliance.",
     appliedDate: "May 5, 2027",
     status: "Under Review",
     statusUpdateDate: "May 12, 2027"

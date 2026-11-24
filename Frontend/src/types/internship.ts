@@ -1,12 +1,8 @@
 export type WorkplaceType = "Remote" | "Hybrid" | "On-site";
 export type DepartmentType =
-  | "Software Engineering"
-  | "UI/UX Design"
-  | "AI & Machine Learning"
-  | "Film & Motion"
-  | "Creative Writing"
-  | "Industrial Craft"
-  | "Culinary Arts";
+  | "Python"
+  | "Web Development"
+  | "AI Engineer";
 
 export type ApplicationStatus =
   | "Submitted"

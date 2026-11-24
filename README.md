@@ -9,7 +9,7 @@ Primer bridges hands-on creative & technical masterclasses directly with verifie
 ## ✨ Key Features
 
 ### 1. 💼 Verified Internship & Fellowship Directory (`/internships`)
-- **Curated Studio Placements**: 10+ high-profile, paid fellowships across Software Engineering, UI/UX Design, AI & Machine Learning, Cinema & Motion, Creative Writing, Industrial Craft, and Culinary Arts.
+- **Curated Studio Placements**: 10+ high-profile, paid fellowships across Python, Web Development, and AI Engineering.
 - **Dynamic Search & Multi-Filters**: Instant client-side search by title, company, skills, or location, with filtering by Track/Department, Workplace Type (*Remote, Hybrid, On-site*), and Duration (*3 Months, 4–6 Months*).
 - **Sort Options**: Filter by Featured, Highest Stipend, Approaching Deadlines, or Most Available Openings.
 - **One-Click Bookmarking**: Save opportunities to your personal student dashboard for quick comparison and preparation.

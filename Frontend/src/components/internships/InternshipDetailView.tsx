@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Internship } from "@/types/internship";
+import { internships } from "@/data/internships";
 import { ApplyModal } from "./ApplyModal";
 import {
   Building2,
@@ -13,10 +14,13 @@ import {
   Share2,
   CheckCircle2,
   ArrowRight,
-  Sparkles,
   Award,
   ChevronRight,
-  Check
+  Check,
+  Terminal,
+  Code2,
+  Cpu,
+  ArrowUpRight
 } from "lucide-react";
 
 interface InternshipDetailViewProps {
@@ -67,9 +71,26 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
     }
   };
 
+  const relatedInternships = internships
+    .filter((item) => item.slug !== internship.slug && item.department === internship.department)
+    .slice(0, 2);
+
+  const renderTrackIcon = (dept: string) => {
+    switch (dept) {
+      case "Python":
+        return <Terminal className="w-3.5 h-3.5 text-emerald-700" />;
+      case "Web Development":
+        return <Code2 className="w-3.5 h-3.5 text-stone-700" />;
+      case "AI Engineer":
+        return <Cpu className="w-3.5 h-3.5 text-orange-700" />;
+      default:
+        return null;
+    }
+  };
+
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
-      {/* Breadcrumbs */}
+    <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-16 sm:pt-36 sm:pb-24">
+      {/* Breadcrumbs with ample top clearance */}
       <nav className="flex items-center gap-2 text-xs font-mono text-stone-500 mb-8 flex-wrap">
         <Link href="/" className="hover:text-black transition-colors">
           Home
@@ -95,17 +116,28 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
             <img
               src={internship.companyLogo}
               alt={internship.company}
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover border border-stone-200 shadow-sm flex-shrink-0"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover border border-stone-200 shadow-xs flex-shrink-0"
             />
             <div>
               <div className="flex items-center gap-2.5 mb-2 flex-wrap">
                 <span
-                  className="px-3 py-0.5 rounded-full text-xs font-mono font-medium tracking-wide"
+                  className="px-3 py-0.5 rounded-full text-xs font-mono font-medium tracking-wide inline-flex items-center gap-1.5"
                   style={{
-                    backgroundColor: "rgba(30, 58, 50, 0.08)",
-                    color: "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a, #1e3a32)"
+                    backgroundColor:
+                      internship.department === "Python"
+                        ? "rgba(16, 185, 129, 0.1)"
+                        : internship.department === "AI Engineer"
+                        ? "rgba(240, 83, 43, 0.12)"
+                        : "rgba(23, 21, 15, 0.08)",
+                    color:
+                      internship.department === "Python"
+                        ? "#065f46"
+                        : internship.department === "AI Engineer"
+                        ? "#c2410c"
+                        : "#1c1917"
                   }}
                 >
+                  {renderTrackIcon(internship.department)}
                   {internship.department}
                 </span>
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-mono bg-stone-100 text-stone-700">
@@ -162,7 +194,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
           <div className="flex items-center gap-2 self-start md:self-auto flex-wrap sm:flex-nowrap">
             <button
               onClick={toggleBookmark}
-              className="p-3 rounded-2xl border border-stone-200 hover:border-black transition-colors text-stone-700 bg-white"
+              className="p-3 rounded-2xl border border-stone-200 hover:border-black transition-colors text-stone-700 bg-white cursor-pointer"
               title={isBookmarked ? "Remove bookmark" : "Save opportunity"}
             >
               {isBookmarked ? (
@@ -173,14 +205,14 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
             </button>
             <button
               onClick={handleShare}
-              className="p-3 rounded-2xl border border-stone-200 hover:border-black transition-colors text-stone-700 bg-white"
+              className="p-3 rounded-2xl border border-stone-200 hover:border-black transition-colors text-stone-700 bg-white cursor-pointer"
               title="Copy link"
             >
               {copiedLink ? <Check className="w-5 h-5 text-emerald-600" /> : <Share2 className="w-5 h-5" />}
             </button>
             <button
               onClick={() => setIsApplyOpen(true)}
-              className="px-6 py-3 rounded-2xl font-mono text-xs font-semibold tracking-wider uppercase text-white shadow-md hover:shadow-lg transition-all active:scale-95"
+              className="px-6 py-3 rounded-2xl font-mono text-xs font-semibold tracking-wider uppercase text-white shadow-md hover:shadow-lg transition-all active:scale-95 cursor-pointer"
               style={{
                 backgroundColor: "var(--token-6e05a1fc-6c66-49ed-aaad-602284d2af03, #f0532b)"
               }}
@@ -229,14 +261,14 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
               className="text-xl font-serif font-normal mb-4"
               style={{ fontFamily: "'Young Serif', Georgia, serif" }}
             >
-              The Placement & Studio Context
+              The Placement & Engineering Context
             </h2>
             <p className="text-sm sm:text-base text-stone-700 leading-relaxed font-sans mb-6">
               {internship.overview}
             </p>
 
             <h3 className="text-xs font-mono uppercase tracking-wider text-stone-400 mb-3">
-              Core Technical & Creative Focus
+              Core Technical Stack & Tools
             </h3>
             <div className="flex flex-wrap gap-2">
               {internship.skills.map((skill) => (
@@ -281,10 +313,10 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
               className="text-xl font-serif font-normal mb-2"
               style={{ fontFamily: "'Young Serif', Georgia, serif" }}
             >
-              Mentorship Curriculum & Phases
+              Mentorship Curriculum & Timeline
             </h2>
             <p className="text-xs font-sans text-stone-500 mb-6">
-              Every Primer-affiliated internship is structured with clear milestones and weekly reviews with your lead mentor.
+              Every Primer engineering fellowship is structured with weekly code reviews and direct guidance from your lead mentor.
             </p>
 
             <div className="space-y-4">
@@ -321,7 +353,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
               className="text-xl font-serif font-normal mb-4"
               style={{ fontFamily: "'Young Serif', Georgia, serif" }}
             >
-              What We Are Looking For
+              What We Look For in Candidates
             </h2>
             <ul className="space-y-3">
               {internship.qualifications.map((qual, i) => (
@@ -332,47 +364,6 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
               ))}
             </ul>
           </section>
-
-          {/* Direct Course Pathway Banner */}
-          {internship.relatedCourseSlug && (
-            <div
-              className="rounded-3xl border p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6"
-              style={{
-                backgroundColor: "rgba(30, 58, 50, 0.05)",
-                borderColor: "rgba(30, 58, 50, 0.2)"
-              }}
-            >
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-emerald-800" />
-                  <span className="text-xs font-mono uppercase tracking-wider text-emerald-900 font-bold">
-                    Fast-Track Preparation Pathway
-                  </span>
-                </div>
-                <h3
-                  className="text-xl font-serif font-normal text-stone-900"
-                  style={{ fontFamily: "'Young Serif', Georgia, serif" }}
-                >
-                  Prepare with &ldquo;{internship.relatedCourseTitle}&rdquo;
-                </h3>
-                <p className="text-xs sm:text-sm text-stone-600 font-sans max-w-xl">
-                  Applicants who complete the hands-on project in this masterclass have their portfolio fast-tracked for an
-                  interview by {internship.company}&apos;s hiring team.
-                </p>
-              </div>
-
-              <Link
-                href={`/courses/${internship.relatedCourseSlug}`}
-                className="px-5 py-3 rounded-2xl font-mono text-xs uppercase font-semibold text-white whitespace-nowrap flex items-center gap-2 transition-transform active:scale-95 flex-shrink-0"
-                style={{
-                  backgroundColor: "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a, #1e3a32)"
-                }}
-              >
-                View Course Syllabus
-                <ArrowRight className="w-3.5 h-3.5" />
-              </Link>
-            </div>
-          )}
         </div>
 
         {/* Right Sticky Sidebar */}
@@ -392,7 +383,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
 
             <button
               onClick={() => setIsApplyOpen(true)}
-              className="w-full py-3.5 rounded-2xl font-mono text-xs font-bold tracking-wider uppercase text-white shadow-md hover:shadow-lg transition-all active:scale-95 text-center mb-3"
+              className="w-full py-3.5 rounded-2xl font-mono text-xs font-bold tracking-wider uppercase text-white shadow-md hover:shadow-lg transition-all active:scale-95 text-center mb-3 cursor-pointer"
               style={{
                 backgroundColor: "var(--token-6e05a1fc-6c66-49ed-aaad-602284d2af03, #f0532b)"
               }}
@@ -402,7 +393,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
 
             <button
               onClick={toggleBookmark}
-              className="w-full py-2.5 rounded-xl border border-stone-200 text-xs font-mono uppercase tracking-wider text-stone-700 hover:bg-stone-50 transition-colors flex items-center justify-center gap-2 mb-6"
+              className="w-full py-2.5 rounded-xl border border-stone-200 text-xs font-mono uppercase tracking-wider text-stone-700 hover:bg-stone-50 transition-colors flex items-center justify-center gap-2 mb-6 cursor-pointer"
             >
               {isBookmarked ? (
                 <>
@@ -458,6 +449,62 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
           </div>
         </div>
       </div>
+
+      {/* Related Opportunities in this Track */}
+      {relatedInternships.length > 0 && (
+        <div className="mt-16 pt-12 border-t" style={{ borderColor: "var(--token-089b04d3-1763-411b-b92e-81c3ce9de35b, #ddd7ca)" }}>
+          <div className="flex items-center justify-between mb-6">
+            <h3
+              className="text-2xl font-serif font-normal text-stone-900"
+              style={{ fontFamily: "'Young Serif', Georgia, serif" }}
+            >
+              Other Fellowships in {internship.department}
+            </h3>
+            <Link
+              href={`/internships?track=${encodeURIComponent(internship.department)}`}
+              className="text-xs font-mono text-orange-600 hover:text-orange-800 flex items-center gap-1 font-medium"
+            >
+              View all {internship.department} roles <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {relatedInternships.map((rel) => (
+              <div
+                key={rel.id}
+                className="rounded-3xl border p-6 bg-white flex flex-col justify-between hover:shadow-lg transition-all"
+                style={{ borderColor: "var(--token-089b04d3-1763-411b-b92e-81c3ce9de35b, #ddd7ca)" }}
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-3 mb-3">
+                    <span className="text-xs font-semibold text-stone-800">{rel.company}</span>
+                    <span className="text-xs font-mono text-stone-500">{rel.workplaceType}</span>
+                  </div>
+                  <Link href={`/internships/${rel.slug}`} className="hover:text-orange-600 transition-colors">
+                    <h4
+                      className="text-lg font-serif font-normal text-stone-900 mb-2"
+                      style={{ fontFamily: "'Young Serif', Georgia, serif" }}
+                    >
+                      {rel.title}
+                    </h4>
+                  </Link>
+                  <p className="text-xs text-stone-600 line-clamp-2 leading-relaxed mb-4">{rel.overview}</p>
+                </div>
+
+                <div className="pt-3 border-t flex items-center justify-between" style={{ borderColor: "rgba(221, 215, 202, 0.7)" }}>
+                  <span className="font-mono text-xs font-semibold text-stone-900">{rel.stipend}</span>
+                  <Link
+                    href={`/internships/${rel.slug}`}
+                    className="inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider text-orange-600 hover:text-orange-800 font-semibold"
+                  >
+                    View Role <ArrowUpRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Application Modal */}
       <ApplyModal

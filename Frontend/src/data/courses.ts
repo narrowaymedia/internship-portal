@@ -23,9 +23,9 @@ export const courses: Course[] = [
     studentsCount: 2340,
     description: "Learn how to approach abstract painting without fear. Lena Hart guides you through stretching linen, priming with rabbit-skin gesso, building raw mineral pigments, and using palette knives to create deep textural tension.",
     whatYouWillMake: "One large 36×48 inch stretched canvas featuring layered acrylics, charcoal washes, and oil stick markings, ready for exhibition.",
-    heroImage: "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp",
+    heroImage: "/images/internships/python-data-science.webp",
     gallery: [
-      "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp",
+      "/images/internships/python-data-science.webp",
       "https://framerusercontent.com/images/lpdAFlFLabZKyZ8oHIPqPKHGsQ.webp",
       "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp",
     ],
@@ -96,9 +96,9 @@ export const courses: Course[] = [
     studentsCount: 3120,
     description: "Forget following rigid recipes line by line. Chef Marco Bellini demystifies classical French and Italian foundational techniques: precise knife cuts, emulsion sauces, pan heat regulation, and seasonal seasoning by taste.",
     whatYouWillMake: "A complete 3-course dinner party menu: Hand-rolled pasta with brown butter emulsion, pan-seared wild fish with crisp skin, and a classic zabaglione.",
-    heroImage: "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp",
+    heroImage: "/images/internships/python-backend.webp",
     gallery: [
-      "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp",
+      "/images/internships/python-backend.webp",
       "https://framerusercontent.com/images/uw6MU2iVNFnh4k9MY7NlYuASg.webp",
       "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp",
     ],
@@ -159,11 +159,11 @@ export const courses: Course[] = [
     studentsCount: 2890,
     description: "Learn the foundational principles of Swiss graphic design and contemporary digital layout. Master column grids, baseline alignment, font pairing, contrast, and scale to create work that commands attention.",
     whatYouWillMake: "A comprehensive brand identity poster and a 16-page editorial lookbook designed from scratch on a rigorous baseline grid.",
-    heroImage: "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp",
+    heroImage: "/images/internships/web-design-systems.webp",
     gallery: [
-      "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp",
+      "/images/internships/web-design-systems.webp",
       "https://framerusercontent.com/images/oFEeVXj2XKcF0Qc9ttBhkJFuKMA.webp",
-      "https://framerusercontent.com/images/m19PzR3EFa7CYtPwpKDAmHwbAM.webp",
+      "/images/internships/ai-computer-vision.webp",
     ],
     materials: [
       "Figma, Adobe InDesign, or Illustrator",
@@ -221,9 +221,9 @@ export const courses: Course[] = [
     studentsCount: 1980,
     description: "Develop your voice, build characters with unstated motives, and write dialogue that reveals subtext. Clara Moss breaks down the mechanics of story architecture without reducing writing to sterile formulas.",
     whatYouWillMake: "One polished 4,000-word short story, ready for literary journal submission or anthology publication.",
-    heroImage: "https://framerusercontent.com/images/KSPZkqQDIwEB0js15w5xelYPbgg.webp",
+    heroImage: "/images/internships/ai-deep-learning.webp",
     gallery: [
-      "https://framerusercontent.com/images/KSPZkqQDIwEB0js15w5xelYPbgg.webp",
+      "/images/internships/ai-deep-learning.webp",
       "https://framerusercontent.com/images/AxjpM1cutrT0gt0MPs9wWvQSEHE.webp",
     ],
     materials: [
@@ -281,9 +281,9 @@ export const courses: Course[] = [
     studentsCount: 1750,
     description: "Master manual aperture, shutter speed, zone focusing, and exposure latitude on 35mm and 120 medium format film. Learn the chemical process of tank developing black-and-white negatives in your bathroom.",
     whatYouWillMake: "A contact sheet of 36 frames and a curated set of 5 exhibition-grade scans developed and toned by your own hands.",
-    heroImage: "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp",
+    heroImage: "/images/internships/web-architecture.webp",
     gallery: [
-      "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp",
+      "/images/internships/web-architecture.webp",
       "https://framerusercontent.com/images/lpdAFlFLabZKyZ8oHIPqPKHGsQ.webp",
     ],
     materials: [
@@ -342,9 +342,9 @@ export const courses: Course[] = [
     studentsCount: 2100,
     description: "Learn how to direct, light, and record cinema-grade short scenes without renting tens of thousands of dollars of Hollywood gear. Discover practical lighting, DIY flags, shotgun boom techniques, and color grading.",
     whatYouWillMake: "A complete 3-minute narrative dramatic scene with synchronized clean audio, multi-angle coverage, and cinematic grade.",
-    heroImage: "https://framerusercontent.com/images/m19PzR3EFa7CYtPwpKDAmHwbAM.webp",
+    heroImage: "/images/internships/ai-computer-vision.webp",
     gallery: [
-      "https://framerusercontent.com/images/m19PzR3EFa7CYtPwpKDAmHwbAM.webp",
+      "/images/internships/ai-computer-vision.webp",
       "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp",
     ],
     materials: [

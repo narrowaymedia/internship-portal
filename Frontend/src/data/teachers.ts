@@ -18,7 +18,7 @@ export const teachers: Teacher[] = [
       {
         title: "Tectonic Study No. 4",
         studentName: "Julian Vance",
-        image: "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp",
+        image: "/images/internships/python-data-science.webp",
       },
       {
         title: "Earth & Cadmium Balance",
@@ -44,7 +44,7 @@ export const teachers: Teacher[] = [
       {
         title: "Glazed Duck & Reduction Sauce",
         studentName: "Arthur King",
-        image: "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp",
+        image: "/images/internships/python-backend.webp",
       },
     ],
   },
@@ -65,7 +65,7 @@ export const teachers: Teacher[] = [
       {
         title: "Brutalist Architecture Monograph",
         studentName: "Klara Fischer",
-        image: "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp",
+        image: "/images/internships/web-design-systems.webp",
       },
     ],
   },
@@ -86,7 +86,7 @@ export const teachers: Teacher[] = [
       {
         title: "The Salt Keeper (Short Story)",
         studentName: "Evelyn Reed",
-        image: "https://framerusercontent.com/images/KSPZkqQDIwEB0js15w5xelYPbgg.webp",
+        image: "/images/internships/ai-deep-learning.webp",
       },
     ],
   },
@@ -107,7 +107,7 @@ export const teachers: Teacher[] = [
       {
         title: "Nocturne at Prater",
         studentName: "Lukas Weber",
-        image: "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp",
+        image: "/images/internships/web-architecture.webp",
       },
     ],
   },
@@ -128,7 +128,7 @@ export const teachers: Teacher[] = [
       {
         title: "Blue Hour at the Port (3min)",
         studentName: "Gael Renaud",
-        image: "https://framerusercontent.com/images/m19PzR3EFa7CYtPwpKDAmHwbAM.webp",
+        image: "/images/internships/ai-computer-vision.webp",
       },
     ],
   },

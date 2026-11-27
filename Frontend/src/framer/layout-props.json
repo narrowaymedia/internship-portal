@@ -233,7 +233,7 @@
    "night": "var(--token-b6edbf65-e00c-48a3-be1b-4bfc1da26464)",
    "pine": "var(--token-d61acb54-0f02-4ada-8301-e50808c78e3a)",
    "primerLinks": "Internships:/internships, Mentors:/mentors, Pricing:/pricing, About:/about, Blog:/blog, Dashboard:/dashboard, Contact:/contact",
-   "primerTitle": "Primer",
+   "primerTitle": "Gradeon",
    "reveal": true,
    "schoolsLinks": "Python:/internships?track=Python, Web Development:/internships?track=Web%20Development, AI Engineer:/internships?track=AI%20Engineer",
    "schoolsTitle": "Tracks",

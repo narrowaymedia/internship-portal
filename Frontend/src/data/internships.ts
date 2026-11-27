@@ -36,7 +36,7 @@ export const internships: Internship[] = [
       "$3,800 monthly living stipend + $1,000 home studio hardware allowance",
       "1-on-1 weekly mentorship with Senior Frontend & Full-Stack Architects",
       "Fast-track interview guarantee for full-time junior positions upon graduation",
-      "Complimentary access to all Primer engineering masterclasses and workshop libraries"
+      "Complimentary access to all Gradeon engineering masterclasses and workshop libraries"
     ],
     mentors: [
       {

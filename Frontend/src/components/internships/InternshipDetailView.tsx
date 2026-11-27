@@ -34,7 +34,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("primer_saved_internships");
+      const saved = localStorage.getItem("gradeon_saved_internships") || localStorage.getItem("primer_saved_internships");
       if (saved) {
         const list: string[] = JSON.parse(saved);
         // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -47,7 +47,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
 
   const toggleBookmark = () => {
     try {
-      const saved = localStorage.getItem("primer_saved_internships");
+      const saved = localStorage.getItem("gradeon_saved_internships") || localStorage.getItem("primer_saved_internships");
       const list: string[] = saved ? JSON.parse(saved) : [];
       let updated: string[];
       if (list.includes(internship.slug)) {
@@ -57,6 +57,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
         updated = [...list, internship.slug];
         setIsBookmarked(true);
       }
+      localStorage.setItem("gradeon_saved_internships", JSON.stringify(updated));
       localStorage.setItem("primer_saved_internships", JSON.stringify(updated));
     } catch {
       // ignore
@@ -316,7 +317,7 @@ export function InternshipDetailView({ internship }: InternshipDetailViewProps) 
               Mentorship Curriculum & Timeline
             </h2>
             <p className="text-xs font-sans text-stone-500 mb-6">
-              Every Primer engineering fellowship is structured with weekly code reviews and direct guidance from your lead mentor.
+              Every Gradeon engineering fellowship is structured with weekly code reviews and direct guidance from your lead mentor.
             </p>
 
             <div className="space-y-4">

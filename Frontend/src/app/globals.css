@@ -2,7 +2,7 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 /* (Tailwind theme + utilities only: no preflight, so the Framer base styles stay exact.) */
 
-/* Primer — global base, mirrored from the Framer site's base CSS and design tokens. */
+/* Gradeon — global base, mirrored from the Framer site's base CSS and design tokens. */
 
 html,
 body {

@@ -50,7 +50,7 @@ export function InternshipDirectory({ initialInternships }: InternshipDirectoryP
         // eslint-disable-next-line react-hooks/set-state-in-effect
         setSelectedDept(track as DepartmentType);
       }
-      const saved = localStorage.getItem("primer_saved_internships");
+      const saved = localStorage.getItem("gradeon_saved_internships") || localStorage.getItem("primer_saved_internships");
       if (saved) {
         setSavedSlugs(JSON.parse(saved));
       }
@@ -65,6 +65,7 @@ export function InternshipDirectory({ initialInternships }: InternshipDirectoryP
     const next = savedSlugs.includes(slug) ? savedSlugs.filter((s) => s !== slug) : [...savedSlugs, slug];
     setSavedSlugs(next);
     try {
+      localStorage.setItem("gradeon_saved_internships", JSON.stringify(next));
       localStorage.setItem("primer_saved_internships", JSON.stringify(next));
     } catch {
       // ignore

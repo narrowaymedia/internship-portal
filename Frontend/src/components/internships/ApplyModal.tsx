@@ -29,7 +29,7 @@ export function ApplyModal({ internship, isOpen, onClose, onSuccess }: ApplyModa
       setStep(1);
       setError(null);
       try {
-        const savedProfile = localStorage.getItem("primer_student_profile");
+        const savedProfile = localStorage.getItem("gradeon_student_profile") || localStorage.getItem("primer_student_profile");
         if (savedProfile) {
           const p = JSON.parse(savedProfile);
           if (p.name) setName(p.name);
@@ -101,16 +101,17 @@ export function ApplyModal({ internship, isOpen, onClose, onSuccess }: ApplyModa
       };
 
       try {
-        localStorage.setItem(
-          "primer_student_profile",
-          JSON.stringify({ name: name.trim(), email: email.trim(), university: university.trim(), portfolioUrl: portfolioUrl.trim() })
-        );
+        const profileData = JSON.stringify({ name: name.trim(), email: email.trim(), university: university.trim(), portfolioUrl: portfolioUrl.trim() });
+        localStorage.setItem("gradeon_student_profile", profileData);
+        localStorage.setItem("primer_student_profile", profileData);
 
-        const existing = localStorage.getItem("primer_internship_applications");
+        const existing = localStorage.getItem("gradeon_internship_applications") || localStorage.getItem("primer_internship_applications");
         const list: StudentApplication[] = existing ? JSON.parse(existing) : [];
         const updated = [newApp, ...list];
+        localStorage.setItem("gradeon_internship_applications", JSON.stringify(updated));
         localStorage.setItem("primer_internship_applications", JSON.stringify(updated));
 
+        window.dispatchEvent(new CustomEvent("gradeon_applications_updated", { detail: updated }));
         window.dispatchEvent(new CustomEvent("primer_applications_updated", { detail: updated }));
       } catch (err) {
         console.error("Storage error:", err);

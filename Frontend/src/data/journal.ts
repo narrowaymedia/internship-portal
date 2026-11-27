@@ -12,10 +12,10 @@ export const journalArticles: JournalArticle[] = [
       role: "Lead Instructor",
       avatar: "https://framerusercontent.com/images/TATDi0y8zaKMAxLQeCeRnzRNg.webp",
     },
-    excerpt: "Most online courses overwhelm you with 90-minute lectures where you passively watch someone else work. Here is why Primer structures everything around short bursts and immediate physical practice.",
+    excerpt: "Most online courses overwhelm you with 90-minute lectures where you passively watch someone else work. Here is why Gradeon structures everything around short bursts and immediate physical practice.",
     coverImage: "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp",
     content: [
-      "When we founded Primer, our single strongest intuition was that passive video bingeing is the enemy of skill acquisition. Watching someone chop an onion or paint a wash for two hours gives you the illusion of competence without any of the tactile muscle memory.",
+      "When we founded Gradeon, our single strongest intuition was that passive video bingeing is the enemy of skill acquisition. Watching someone chop an onion or paint a wash for two hours gives you the illusion of competence without any of the tactile muscle memory.",
       "A ten-minute lesson forces the teacher to isolate one single mechanical idea: how to angle the blade against the knuckle, how much water to leave on the sable brush, or how to set up an editorial baseline grid.",
       "Once that ten minutes is over, your screen turns off. You pick up the knife, the brush, or the mouse, and you spend the next thirty minutes doing it yourself. That is where real learning lives.",
     ],
@@ -41,7 +41,7 @@ export const journalArticles: JournalArticle[] = [
   },
   {
     slug: "how-feedback-works",
-    title: "What Happens When You Upload Your Work to Primer",
+    title: "What Happens When You Upload Your Work to Gradeon",
     category: "Behind the Scenes",
     date: "October 12, 2026",
     readTime: "6 min read",
@@ -90,7 +90,7 @@ export const journalArticles: JournalArticle[] = [
     excerpt: "Why we travel directly to our instructors' personal working studios instead of putting them on a generic green screen set.",
     coverImage: "https://framerusercontent.com/images/m19PzR3EFa7CYtPwpKDAmHwbAM.webp",
     content: [
-      "Every Primer course is recorded in the teacher's actual working environment: Tom's dusty Munich workshop, Marco's restaurant prep line at 7:00 AM, Lena's sunlit loft in Kreuzberg.",
+      "Every Gradeon course is recorded in the teacher's actual working environment: Tom's dusty Munich workshop, Marco's restaurant prep line at 7:00 AM, Lena's sunlit loft in Kreuzberg.",
       "We don't hand them a teleprompter or a marketing script. We ask them to do what they have done every working day for twenty years, and we place macro lenses right where their hands meet the material.",
     ],
   },

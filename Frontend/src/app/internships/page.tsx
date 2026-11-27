@@ -4,11 +4,11 @@ import { InternshipDirectory } from "@/components/internships/InternshipDirector
 import { Sparkles, Terminal, Code2, Cpu } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Verified Tech Fellowships & Internships — Primer",
+  title: "Verified Tech Fellowships & Internships — Gradeon",
   description:
     "Discover verified paid summer internships and engineering fellowships in Python, Web Development, and AI Engineering. Direct 1-on-1 mentorship from working industry leaders.",
   openGraph: {
-    title: "Verified Tech Internships & Fellowships — Primer",
+    title: "Verified Tech Internships & Fellowships — Gradeon",
     description: "Paid software and AI fellowships with direct 1-on-1 engineering mentorship and weekly code reviews."
   }
 };

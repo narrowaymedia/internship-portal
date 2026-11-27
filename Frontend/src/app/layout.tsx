@@ -6,7 +6,7 @@ import { metaFor } from "@/framer/meta";
 
 export const metadata: Metadata = {
   ...metaFor("/"),
-  metadataBase: new URL("https://primer.example.com"),
+  metadataBase: new URL("https://gradeon.example.com"),
   robots: "max-image-preview:large",
   icons: {
     icon: [

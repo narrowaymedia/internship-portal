@@ -20,12 +20,12 @@ export async function generateMetadata({
   const internship = internships.find((item) => item.slug === slug);
   if (!internship) {
     return {
-      title: "Placement Not Found — Primer Internships"
+      title: "Placement Not Found — Gradeon Internships"
     };
   }
 
   return {
-    title: `${internship.title} at ${internship.company} — Primer Internships`,
+    title: `${internship.title} at ${internship.company} — Gradeon Internships`,
     description: `${internship.department} internship in ${internship.location}. Stipend: ${internship.stipend}. ${internship.overview.slice(0, 140)}...`,
     openGraph: {
       title: `${internship.title} — ${internship.company}`,

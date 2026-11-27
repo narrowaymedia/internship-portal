@@ -22,20 +22,22 @@ export function StudentDashboard() {
 
   useEffect(() => {
     try {
-      const stored = localStorage.getItem("primer_internship_applications");
+      const stored = localStorage.getItem("gradeon_internship_applications") || localStorage.getItem("primer_internship_applications");
       if (stored) {
         // eslint-disable-next-line react-hooks/set-state-in-effect
         setApplications(JSON.parse(stored));
       } else {
+        localStorage.setItem("gradeon_internship_applications", JSON.stringify(defaultMockApplications));
         localStorage.setItem("primer_internship_applications", JSON.stringify(defaultMockApplications));
       }
 
-      const saved = localStorage.getItem("primer_saved_internships");
+      const saved = localStorage.getItem("gradeon_saved_internships") || localStorage.getItem("primer_saved_internships");
       if (saved) {
         setSavedSlugs(JSON.parse(saved));
       } else {
         const defaultSaved = ["applied-ai-generative-design-fellow", "culinary-arts-kitchen-staging"];
         setSavedSlugs(defaultSaved);
+        localStorage.setItem("gradeon_saved_internships", JSON.stringify(defaultSaved));
         localStorage.setItem("primer_saved_internships", JSON.stringify(defaultSaved));
       }
     } catch {
@@ -48,8 +50,12 @@ export function StudentDashboard() {
         setApplications(customEvent.detail);
       }
     };
+    window.addEventListener("gradeon_applications_updated", handleUpdate);
     window.addEventListener("primer_applications_updated", handleUpdate);
-    return () => window.removeEventListener("primer_applications_updated", handleUpdate);
+    return () => {
+      window.removeEventListener("gradeon_applications_updated", handleUpdate);
+      window.removeEventListener("primer_applications_updated", handleUpdate);
+    };
   }, []);
 
   const handleDeleteApplication = (id: string, e: React.MouseEvent) => {
@@ -58,6 +64,7 @@ export function StudentDashboard() {
     const updated = applications.filter((a) => a.id !== id);
     setApplications(updated);
     try {
+      localStorage.setItem("gradeon_internship_applications", JSON.stringify(updated));
       localStorage.setItem("primer_internship_applications", JSON.stringify(updated));
     } catch {
       // ignore
@@ -69,6 +76,7 @@ export function StudentDashboard() {
     const updated = savedSlugs.filter((s) => s !== slug);
     setSavedSlugs(updated);
     try {
+      localStorage.setItem("gradeon_saved_internships", JSON.stringify(updated));
       localStorage.setItem("primer_saved_internships", JSON.stringify(updated));
     } catch {
       // ignore
@@ -488,7 +496,7 @@ export function StudentDashboard() {
               Master the Craft, Secure the Interview
             </h3>
             <p className="text-xs sm:text-sm text-stone-600 font-sans max-w-2xl leading-relaxed">
-              Primer partners with top design agencies, fine arts ateliers, and tech startups. When you complete a course project
+              Gradeon partners with top design agencies, fine arts ateliers, and tech startups. When you complete a course project
               and receive a teacher mark of excellence, your portfolio bypasses standard ATS filters and gets placed directly in front of the studio partner&apos;s hiring directors.
             </p>
           </div>

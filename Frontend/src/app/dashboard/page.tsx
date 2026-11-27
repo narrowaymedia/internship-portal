@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { StudentDashboard } from "@/components/dashboard/StudentDashboard";
 
 export const metadata: Metadata = {
-  title: "Student Dashboard — Primer Educational & Internship Portal",
+  title: "Student Dashboard — Gradeon Educational & Internship Portal",
   description: "Track your active studio internship applications, upcoming interviews, and preparatory course completions.",
   openGraph: {
-    title: "Student Dashboard — Primer",
+    title: "Student Dashboard — Gradeon",
     description: "Personal internship application tracker and interview schedule."
   }
 };
